@@ -10,11 +10,19 @@
 <body>
     <h1 th:text="'Welcome, ' + ${user.name} + ' and '  + ${user2.name} +  '!'"></h1>
     <h1 th:text="'Welcome to OTU Flights!'"></h1>
-    <select id="fruits">
-        <option value=""
+    <style>
+        select {
+            width: 200px; /* Set the width */
+            height: 40px; /* Set the height */
+            font-size: 16px; /* Set the font size */
+            padding: 10px; /* Add padding */
+        }
+    </style>
+    <select id="Flight Type">
+        <option value="Return trip">Return trip</option>
+        <option value="Return trip">One way</option>
+        <option value="Return trip">Multi city</option>
     </select>
-    <p>this the about html page</p>
-    <p>Wanna go back to chickens?</p>
-    <a href="chickens.html">BACK TO CHICKEN</a>
+    
 </body>
 </html>
