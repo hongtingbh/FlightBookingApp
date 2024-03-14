@@ -11,6 +11,7 @@ public class FlightBookingAppController {
     @GetMapping("/")
     public String index(Model model) {
         model.addAttribute("user", new User("John")); // Add a user object to the model
+        model.addAttribute("user2", new User("Billy")); // Add a user object to the model
         return "index"; // Return the name of the Thymeleaf template
     }
 }
