@@ -23,22 +23,18 @@
         <option value="Return trip">One way</option>
         <option value="Return trip">Multi city</option>
     </select>
-    <script>
-        const { getJson } = require("serpapi");
+    <form id="/submitForm" method="post">
+        <label for="departingCity">From</label>
+        <br>
+        <input type="text" id="departingCity" name="departingCity" placeholder="Departing City">
+        <br>
+        <label for="arrivingCity">To</label>
+        <br>
+        <input type="text" id="arrivingCity" name="arrivingCity" placeholder="Arriving City">
+        <button type="button" onclick="myFunction()">Submit</button>
 
-        getJson({
-        engine: "google_flights",
-        departure_id: "PEK",
-        arrival_id: "AUS",
-        outbound_date: "2024-03-14",
-        return_date: "2024-03-20",
-        currency: "USD",
-        hl: "en",
-        api_key: "secret_api_key"
-        }, (json) => {
-        console.log(json);
-        });
-    </script>
+    </form>
+    
     
 </body>
 </html>

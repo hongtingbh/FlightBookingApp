@@ -1,0 +1,1091 @@
+{
+  "search_metadata": {
+    "id": "65f4f5a5116a55be64bd8ccb",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/54db4b0175028062/65f4f5a5116a55be64bd8ccb.json",
+    "created_at": "2024-03-16 01:28:05 UTC",
+    "processed_at": "2024-03-16 01:28:05 UTC",
+    "google_url": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&sourceid=chrome&ie=UTF-8",
+    "raw_html_file": "https://serpapi.com/searches/54db4b0175028062/65f4f5a5116a55be64bd8ccb.html",
+    "total_time_taken": 6.42
+  },
+  "search_parameters": {
+    "engine": "google",
+    "q": "flights from Tokyo to Toronto",
+    "google_domain": "google.com",
+    "device": "desktop"
+  },
+  "search_information": {
+    "query_displayed": "flights from Tokyo to Toronto",
+    "total_results": 6120000,
+    "time_taken_displayed": 0.3,
+    "organic_results_state": "Results for exact spelling"
+  },
+  "ads": [
+    {
+      "position": 1,
+      "block_position": "top",
+      "title": "Tokyo to Toronto Flights - Etihad Airways™",
+      "link": "https://www.etihad.com/en-jp/flights/",
+      "displayed_link": "https://flights.etihad.com › toronto",
+      "tracking_link": "https://www.google.com/aclk?sa=l&ai=DChcSEwi-8NTM0PeEAxWiT0cBHcucA6gYABAAGgJxdQ&gclid=EAIaIQobChMIvvDUzND3hAMVok9HAR3LnAOoEAAYASAAEgKV-PD_BwE&sig=AOD64_2TM9NRT2U2iXRMFPktIkSXCpQFNQ&q&adurl",
+      "description": "Business identity verified—",
+      "source": "Etihad Airways",
+      "sitelinks": [
+        {
+          "title": "Special Offers for You",
+          "link": "https://www.etihad.com/en-jp/book/special-offers"
+        },
+        {
+          "title": "Plan and Book",
+          "link": "https://www.etihad.com/en-jp/book"
+        },
+        {
+          "title": "Why Book Online?",
+          "link": "https://www.etihad.com/en/book/why-book-online"
+        },
+        {
+          "title": "Join Etihad™ Guest Miles",
+          "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwi-8NTM0PeEAxWiT0cBHcucA6gYABAKGgJxdQ&gclid=EAIaIQobChMIvvDUzND3hAMVok9HAR3LnAOoEAAYASAEEgIXd_D_BwE&sig=AOD64_3ke0vuyEvT0omo9xjHsfxUH9eg5w&adurl=&q="
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "block_position": "top",
+      "title": "Tokyo to Toronto Flights | Flights from tokyo to toronto",
+      "link": "https://www.expedia.com/lp/flights/tyo/yyz/tokyo-to-toronto",
+      "displayed_link": "https://www.expedia.com/cheap_flights/toronto",
+      "tracking_link": "https://www.google.com/aclk?sa=l&ai=DChcSEwi-8NTM0PeEAxWiT0cBHcucA6gYABABGgJxdQ&gclid=EAIaIQobChMIvvDUzND3hAMVok9HAR3LnAOoEAAYAiAAEgIs_vD_BwE&sig=AOD64_0m78x6xyhEztTzGY6QPoAw_SC_Jw&q&adurl",
+      "description": "Business identity verified—",
+      "source": "expedia.com",
+      "sitelinks": [
+        {
+          "title": "Direct Flights",
+          "link": "https://www.expedia.com/Flights?langid=1033&Sitelink=Direct_Flights&semcid=US.MULTILOBF.GOOGLE.GT-%7Bdevice%7D-EN.FLIGHT&semdtl=a1%7Bcampaignid%7D.b1%7Badgroupid%7D.d1%7Bcreative%7D.e1%7Bdevice%7D.f1%7Badposition%7D.g1%7Btargetid%7D.h1%7Bmatchtype%7D.i1%7Bfeeditemid%7D.j1%7Bloc_physical_ms%7D.k1%7Bloc_interest_ms%7D.l1%7Bnetwork%7D.m1.n1%7Bplacement%7D"
+        },
+        {
+          "title": "Round Trip Flights",
+          "link": "https://www.expedia.com/Flights?langid=1033&Sitelink=Round_Trip_Flights&semcid=US.MULTILOBF.GOOGLE.GT-%7Bdevice%7D-EN.FLIGHT&semdtl=a1%7Bcampaignid%7D.b1%7Badgroupid%7D.d1%7Bcreative%7D.e1%7Bdevice%7D.f1%7Badposition%7D.g1%7Btargetid%7D.h1%7Bmatchtype%7D.i1%7Bfeeditemid%7D.j1%7Bloc_physical_ms%7D.k1%7Bloc_interest_ms%7D.l1%7Bnetwork%7D.m1.n1%7Bplacement%7D"
+        },
+        {
+          "title": "Search Cheap Flights",
+          "link": "https://www.expedia.com/Flights?langid=1033&Sitelink=Search_Cheap_Flights&semcid=US.MULTILOBF.GOOGLE.GT-%7Bdevice%7D-EN.FLIGHT&semdtl=a1%7Bcampaignid%7D.b1%7Badgroupid%7D.d1%7Bcreative%7D.e1%7Bdevice%7D.f1%7Badposition%7D.g1%7Btargetid%7D.h1%7Bmatchtype%7D.i1%7Bfeeditemid%7D.j1%7Bloc_physical_ms%7D.k1%7Bloc_interest_ms%7D.l1%7Bnetwork%7D.m1.n1%7Bplacement%7D"
+        },
+        {
+          "title": "Sign In",
+          "link": "https://www.expedia.com/user/signin?ckoflag=0"
+        },
+        {
+          "title": "Deals Offered",
+          "link": "https://www.expedia.com/Deals"
+        }
+      ]
+    }
+  ],
+  "knowledge_graph": {
+    "title": "Flights to Toronto",
+    "entity_type": "flights",
+    "tabs": [
+      {
+        "text": "Flight Status"
+      },
+      {
+        "text": "Airports"
+      }
+    ]
+  },
+  "related_questions": [
+    {
+      "question": "Is there a direct flight from Japan to Toronto?",
+      "snippet": "All flight schedules from Narita International Airport, Japan to Pearson International, Canada. This route is operated by 1 airline(s), and the flight time is 12 hours and 20 minutes. The distance is 6435 miles.",
+      "title": "Direct (non-stop) flights from Tokyo to Toronto - FlightsFrom.com",
+      "link": "https://www.flightsfrom.com/NRT-YYZ#:~:text=All%20flight%20schedules%20from%20Narita,The%20distance%20is%206435%20miles.",
+      "displayed_link": "https://www.flightsfrom.com › NRT-YYZ",
+      "source_logo": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/48c3ce78781dbfb5e478a18b4c7c0eb4aae72fdc18a9160908ab72f98cd3bc45.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZGlyZWN0IGZsaWdodCBmcm9tIEphcGFuIHRvIFRvcm9udG8/IiwibGsiOiJjNVBTeXl4V0tNbElMVXBWU0ZSSXlTeEtUUzVSU012SlRNOEFVa1g1dVFwWmlRV0plUW9sLVVCVWxKOVhrZzhBIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IklzIHRoZXJlIGEgZGlyZWN0IGZsaWdodCBmcm9tIEphcGFuIHRvIFRvcm9udG8%2FIiwibGsiOiJjNVBTeXl4V0tNbElMVXBWU0ZSSXlTeEtUUzVSU012SlRNOEFVa1g1dVFwWmlRV0plUW9sLVVCVWxKOVhrZzhBIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ%3D%3D"
+    },
+    {
+      "question": "How far is Tokyo from Toronto by plane?",
+      "snippet": "The shortest distance (air line) between Toronto and Tokyo is 6,429.17 mi (10,346.74 km).",
+      "title": "6,429.17 mi",
+      "link": "https://www.distance.to/Toronto/Tokyo#:~:text=The%20shortest%20distance%20(air%20line,6%2C429.17%20mi%20(10%2C346.74%20km).",
+      "displayed_link": "https://www.distance.to › Toronto › Tokyo",
+      "source_logo": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/48c3ce78781dbfb5e478a18b4c7c0eb4cf288a17804bbeee58659ae1a2ad56ae.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IkhvdyBmYXIgaXMgVG9reW8gZnJvbSBUb3JvbnRvIGJ5IHBsYW5lPyIsImxrIjoiR2lab2IzY2dabUZ5SUdseklIUnZhM2x2SUdaeWIyMGdkRzl5YjI1MGJ5QmllU0J3YkdGdVpRIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IkhvdyBmYXIgaXMgVG9reW8gZnJvbSBUb3JvbnRvIGJ5IHBsYW5lPyIsImxrIjoiR2lab2IzY2dabUZ5SUdseklIUnZhM2x2SUdaeWIyMGdkRzl5YjI1MGJ5QmllU0J3YkdGdVpRIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ%3D%3D"
+    },
+    {
+      "question": "Which month is the cheapest to fly to Toronto?",
+      "title": "January",
+      "link": "https://www.kayak.co.in/flight-routes/India-IN0/Toronto-YTO",
+      "displayed_link": "https://www.kayak.co.in › flight-routes › India-IN0 › To...",
+      "source_logo": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/48c3ce78781dbfb5e478a18b4c7c0eb49d291b6c706fc22ab13293ffbecc0123.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IldoaWNoIG1vbnRoIGlzIHRoZSBjaGVhcGVzdCB0byBmbHkgdG8gVG9yb250bz8iLCJsayI6ImM1UFNMY19JVE01UXlNM1BLOGxReUN4V0tNbElWVWpPU0Uwc1NDMHVVU2pKVjBqTHFRUlJKZmxGUUJYNUFBIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ==",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IldoaWNoIG1vbnRoIGlzIHRoZSBjaGVhcGVzdCB0byBmbHkgdG8gVG9yb250bz8iLCJsayI6ImM1UFNMY19JVE01UXlNM1BLOGxReUN4V0tNbElWVWpPU0Uwc1NDMHVVU2pKVjBqTHFRUlJKZmxGUUJYNUFBIiwiYnMiOiJjNDJRT3dyQ1FCQkEwWElyeTdCWVRPVVBOSklMcExEUmdKMW9QU1liZHpYWkNadlZrTjZMZUIxUFpHbGlGTkZDckFhRzk0YkhzSmk1aXh5c0ZFWUFRcVNNQ0MzRWlkckphaGhLSWNBTU5WaUNGUm5TbG56bk92U21mS0otV3Z1WFpSdUxyVmxfVGdYRWFLQXlWM1FvcVNHZloyRmJRcGFnRnI1emFYc0QzcE52MnI1cC0wV3ppRTAyVW9VUzBtb3ZvYW1DVUFyTVJHN3JnamdwUF9Kdko4X2w0LUl2NlZXX1pLTzZQa1ZkZ3FTanlXdEhmWDlvaGhvajlKMXo0SFU1YjdqUGI0UVBvdE82QXciLCJpZCI6ImZjXzIifQ%3D%3D"
+    },
+    {
+      "question": "How many hours is it from Japan to Canada?",
+      "snippet": "The total flight duration from Tokyo, Japan to Toronto, Canada is 13 hours, 23 minutes. This assumes an average flight speed for a commercial airliner of 500 mph, which is equivalent to 805 km/h or 434 knots. It also adds an extra 30 minutes for take-off and landing. Your exact time may vary depending on wind speeds.",
+      "title": "Flight Time from Tokyo, Japan to Toronto, Canada - Travelmath",
+      "link": "https://www.travelmath.com/flying-time/from/Tokyo,+Japan/to/Toronto,+Canada#:~:text=The%20total%20flight%20duration%20from,vary%20depending%20on%20wind%20speeds.",
+      "displayed_link": "https://www.travelmath.com › flying-time › Toronto,+Ca...",
+      "source_logo": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/48c3ce78781dbfb5e478a18b4c7c0eb4ef4f629ee877d7bbb7980466e6d604e6.png",
+      "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IkhvdyBtYW55IGhvdXJzIGlzIGl0IGZyb20gSmFwYW4gdG8gQ2FuYWRhPyIsImxrIjoiR2hwb2IzVnljeUJtY205dElHcGhjR0Z1SUhSdklHTmhibUZrWVEiLCJicyI6ImM0MlFPd3JDUUJCQTBYSXJ5N0JZVE9VUE5KSUxwTERSZ0oxb1BTWWJkelhaQ1p2VmtONkxlQjFQWkdsaUZORkNyQWFHOTRiSHNKaTVpeHlzRkVZQVFxU01DQzNFaWRySmFoaEtJY0FNTlZpQ0ZSblNsbnpuT3ZTbWZLSi1XdnVYWlJ1THJWbF9UZ1hFYUtBeVYzUW9xU0dmWjJGYlFwYWdGcjV6YVhzRDNwTnYycjVwLTBXemlFMDJVb1VTMG1vdm9hbUNVQXJNUkc3cmdqZ3BQX0p2SjhfbDQtSXY2VldfWktPNlBrVmRncVNqeVd0SGZYOW9oaG9qOUoxejRIVTViN2pQYjRRUG90TzZBdyIsImlkIjoiZmNfMiJ9",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJUblZYYUdOdWNFTlZjVzFoY1RKS04zcFZObTVEYTNjMVRWOXZXakJFWWpnd1h6TTJTVmxrZUUxcVMyZG5ZMmxaZDIxd2QzaENObHBOT0haTFpHMXpjRjgyTkRSQlpWTkxVMnhVRWhkeGRsZ3dXbUkzV2t0UFgzUndkRkZRTFhOTGFHZEJaeG9pUVZCWWFHMDFXblZaTTJWWU0xRk9jR1I0ZFVsVWVFNXFRVlo2TUU1d2VGbGpadyIsImZjdiI6IjMiLCJlaSI6InF2WDBaYjdaS09fdHB0UVAtc0toZ0FnIiwicWMiOiJjLU9TVGN2SlRNOG9LVlpJSzhyUFZTakp6NjdNQjVKQVZKU2ZWNUl2d0ZCN2NLV01QUUEiLCJxdWVzdGlvbiI6IkhvdyBtYW55IGhvdXJzIGlzIGl0IGZyb20gSmFwYW4gdG8gQ2FuYWRhPyIsImxrIjoiR2hwb2IzVnljeUJtY205dElHcGhjR0Z1SUhSdklHTmhibUZrWVEiLCJicyI6ImM0MlFPd3JDUUJCQTBYSXJ5N0JZVE9VUE5KSUxwTERSZ0oxb1BTWWJkelhaQ1p2VmtONkxlQjFQWkdsaUZORkNyQWFHOTRiSHNKaTVpeHlzRkVZQVFxU01DQzNFaWRySmFoaEtJY0FNTlZpQ0ZSblNsbnpuT3ZTbWZLSi1XdnVYWlJ1THJWbF9UZ1hFYUtBeVYzUW9xU0dmWjJGYlFwYWdGcjV6YVhzRDNwTnYycjVwLTBXemlFMDJVb1VTMG1vdm9hbUNVQXJNUkc3cmdqZ3BQX0p2SjhfbDQtSXY2VldfWktPNlBrVmRncVNqeVd0SGZYOW9oaG9qOUoxejRIVTViN2pQYjRRUG90TzZBdyIsImlkIjoiZmNfMiJ9"
+    }
+  ],
+  "answer_box": {
+    "type": "google_flights",
+    "flights": [
+      {
+        "link": "https://www.google.com/travel/flights?sca_esv=2b7898c5615aa23f&source=flun&uitype=cuAA&hl=en&gl=us&curr=USD&tfs=CAEQAhosEgoyMDI0LTA0LTE1MgJBQWoMCAISCC9tLzA3ZGZrcgwIAhIIL20vMGg3aDYaLBIKMjAyNC0wNC0yODICQUFqDAgCEggvbS8waDdoNnIMCAISCC9tLzA3ZGZremhDalJJZW1vNGRXWlphRFExU3pCQlJHcE1iMmRDUnkwdExTMHRMUzB0ZVhOaVpXMHlORUZCUVVGQlIxZ3dPV0Z2VEhkd1dESkJFZ05qUVVFYUN3aWc3Z2NRQWhvRFZWTkVPREJ3b080SA&ved=1t:2773&ictx=111",
+        "icon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/cfad672eaa339261f3c8bee2cbd3710df4a140aaae7069e2693472afded1ed67.png",
+        "flight_info": [
+          "American",
+          "17h 40m+",
+          "Connecting",
+          "from $1,288"
+        ]
+      },
+      {
+        "link": "https://www.google.com/travel/flights?sca_esv=2b7898c5615aa23f&source=flun&uitype=cuAA&hl=en&gl=us&curr=USD&tfs=CAEQAhosEgoyMDI0LTA0LTE1MgJETGoMCAISCC9tLzA3ZGZrcgwIAhIIL20vMGg3aDYaLBIKMjAyNC0wNC0yODICRExqDAgCEggvbS8waDdoNnIMCAISCC9tLzA3ZGZremhDalJJZW1vNGRXWlphRFExU3pCQlJHcE1iMmRDUnkwdExTMHRMUzB0ZVhOaVpXMHlORUZCUVVGQlIxZ3dPV0Z2VEhkd1dESkJFZ05qUkV3YUN3anM5Z2NRQWhvRFZWTkVPREJ3N1BZSA&ved=1t:2773&ictx=111",
+        "icon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/cfad672eaa339261f3c8bee2cbd3710dfd2fc6ca33079a873e615e6ffb4ff785.png",
+        "flight_info": [
+          "Delta",
+          "15h 16m+",
+          "Connecting",
+          "from $1,299"
+        ]
+      },
+      {
+        "link": "https://www.google.com/travel/flights?sca_esv=2b7898c5615aa23f&source=flun&uitype=cuAA&hl=en&gl=us&curr=USD&tfs=CAEQAhosEgoyMDI0LTA0LTE1MgJBQ2oMCAISCC9tLzA3ZGZrcgwIAhIIL20vMGg3aDYaLBIKMjAyNC0wNC0yODICQUNqDAgCEggvbS8waDdoNnIMCAISCC9tLzA3ZGZremhDalJJZW1vNGRXWlphRFExU3pCQlJHcE1iMmRDUnkwdExTMHRMUzB0ZVhOaVpXMHlORUZCUVVGQlIxZ3dPV0Z2VEhkd1dESkJFZ051UVVNYUN3anc0UWdRQWhvRFZWTkVPREJ3OE9FSQ&ved=1t:2773&ictx=111",
+        "icon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/cfad672eaa339261f3c8bee2cbd3710d5ce50e6a1741cbd41b3a781075a20243.png",
+        "flight_info": [
+          "Air Canada",
+          "12h 15m",
+          "Nonstop",
+          "from $1,436"
+        ]
+      },
+      {
+        "link": "https://www.google.com/travel/flights?sca_esv=2b7898c5615aa23f&source=flun&uitype=cuAA&hl=en&gl=us&curr=USD&tfs=CAEQAhosEgoyMDI0LTA0LTE1MgJOSGoMCAISCC9tLzA3ZGZrcgwIAhIIL20vMGg3aDYaLBIKMjAyNC0wNC0yODICTkhqDAgCEggvbS8waDdoNnIMCAISCC9tLzA3ZGZremhDalJJZW1vNGRXWlphRFExU3pCQlJHcE1iMmRDUnkwdExTMHRMUzB0ZVhOaVpXMHlORUZCUVVGQlIxZ3dPV0Z2VEhkd1dESkJFZ051VGtnYUN3aXN6UmtRQWhvRFZWTkVPREJ3ck0wWg&ved=1t:2773&ictx=111",
+        "icon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/cfad672eaa339261f3c8bee2cbd3710d2db101c28c1e18d20679bc408638cb63.png",
+        "flight_info": [
+          "ANA",
+          "12h 15m",
+          "Nonstop",
+          "from $4,195"
+        ]
+      }
+    ],
+    "link": "https://www.google.com/travel/flights?sca_esv=2b7898c5615aa23f&source=flun&uitype=cuAA&hl=en&gl=us&curr=USD&tfs=CAEQAhooEgoyMDI0LTA0LTE1agwIAhIIL20vMDdkZmtyDAgCEggvbS8waDdoNhooEgoyMDI0LTA0LTI4agwIAhIIL20vMGg3aDZyDAgCEggvbS8wN2Rma3poQ2pSSWVtbzRkV1paYURRMVN6QkJSR3BNYjJkQ1J5MHRMUzB0TFMwdGVYTmlaVzB5TkVGQlFVRkJSMWd3T1dGdlRIZHdXREpCRWdOalFVRWFDd2lnN2djUUFob0RWVk5FT0RCd29PNEg",
+    "search_information": {
+      "trip_type": "Round Trip",
+      "booking_class": "Economy",
+      "from": {
+        "departing_place": "Tokyo, Japan",
+        "departing_airport": "All Airports"
+      },
+      "to": {
+        "arriving_place": "Toronto, Canada",
+        "arriving_airport": "All Airports"
+      }
+    },
+    "cheapest_flights": [
+      {
+        "departure_date": "2024-03-17",
+        "return_date": "2024-03-30",
+        "price": "$2,059",
+        "percentage_of_highest_price": 100,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-03-18",
+        "return_date": "2024-03-31",
+        "price": "$1,777",
+        "percentage_of_highest_price": 86.30403,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-03-19",
+        "return_date": "2024-04-01",
+        "price": "$1,777",
+        "percentage_of_highest_price": 86.30403,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-03-20",
+        "return_date": "2024-04-02",
+        "price": "$1,777",
+        "percentage_of_highest_price": 86.30403,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-03-21",
+        "return_date": "2024-04-03",
+        "price": "$1,777",
+        "percentage_of_highest_price": 86.30403,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-03-22",
+        "return_date": "2024-04-04",
+        "price": "$1,777",
+        "percentage_of_highest_price": 86.30403,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-03-23",
+        "return_date": "2024-04-05",
+        "price": "$1,356",
+        "percentage_of_highest_price": 65.857214,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-03-24",
+        "return_date": "2024-04-06",
+        "price": "$1,322",
+        "percentage_of_highest_price": 64.205927,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-03-25",
+        "return_date": "2024-04-07",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-03-26",
+        "return_date": "2024-04-08",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-03-27",
+        "return_date": "2024-04-09",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-03-28",
+        "return_date": "2024-04-10",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-03-29",
+        "return_date": "2024-04-11",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-03-30",
+        "return_date": "2024-04-12",
+        "price": "$1,617",
+        "percentage_of_highest_price": 78.53327,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-03-31",
+        "return_date": "2024-04-13",
+        "price": "$1,624",
+        "percentage_of_highest_price": 78.87324,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-01",
+        "return_date": "2024-04-14",
+        "price": "$1,452",
+        "percentage_of_highest_price": 70.51967,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-04-02",
+        "return_date": "2024-04-15",
+        "price": "$1,472",
+        "percentage_of_highest_price": 71.491015,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-03",
+        "return_date": "2024-04-16",
+        "price": "$1,472",
+        "percentage_of_highest_price": 71.491015,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-04-04",
+        "return_date": "2024-04-17",
+        "price": "$1,472",
+        "percentage_of_highest_price": 71.491015,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-05",
+        "return_date": "2024-04-18",
+        "price": "$1,486",
+        "percentage_of_highest_price": 72.170955,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-04-06",
+        "return_date": "2024-04-19",
+        "price": "$1,594",
+        "percentage_of_highest_price": 77.416223,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-07",
+        "return_date": "2024-04-20",
+        "price": "$1,354",
+        "percentage_of_highest_price": 65.760076,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-08",
+        "return_date": "2024-04-21",
+        "price": "$1,476",
+        "percentage_of_highest_price": 71.68528400000001,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-04-09",
+        "return_date": "2024-04-22",
+        "price": "$1,289",
+        "percentage_of_highest_price": 62.603204999999996,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-10",
+        "return_date": "2024-04-23",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-04-11",
+        "return_date": "2024-04-24",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-12",
+        "return_date": "2024-04-25",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-04-13",
+        "return_date": "2024-04-26",
+        "price": "$1,488",
+        "percentage_of_highest_price": 72.26809,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-14",
+        "return_date": "2024-04-27",
+        "price": "$1,322",
+        "percentage_of_highest_price": 64.205927,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-15",
+        "return_date": "2024-04-28",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-04-16",
+        "return_date": "2024-04-29",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-17",
+        "return_date": "2024-04-30",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-04-18",
+        "return_date": "2024-05-01",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-19",
+        "return_date": "2024-05-02",
+        "price": "$1,431",
+        "percentage_of_highest_price": 69.499755,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-04-20",
+        "return_date": "2024-05-03",
+        "price": "$1,489",
+        "percentage_of_highest_price": 72.31666,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-21",
+        "return_date": "2024-05-04",
+        "price": "$1,426",
+        "percentage_of_highest_price": 69.25692,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-22",
+        "return_date": "2024-05-05",
+        "price": "$1,299",
+        "percentage_of_highest_price": 63.088876000000006,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-04-23",
+        "return_date": "2024-05-06",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-24",
+        "return_date": "2024-05-07",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-04-25",
+        "return_date": "2024-05-08",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-04-26",
+        "return_date": "2024-05-09",
+        "price": "$1,300",
+        "percentage_of_highest_price": 63.137449999999994,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-04-27",
+        "return_date": "2024-05-10",
+        "price": "$1,489",
+        "percentage_of_highest_price": 72.31666,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-28",
+        "return_date": "2024-05-11",
+        "price": "$1,461",
+        "percentage_of_highest_price": 70.95677,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-04-29",
+        "return_date": "2024-05-12",
+        "price": "$1,401",
+        "percentage_of_highest_price": 68.04274,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-04-30",
+        "return_date": "2024-05-13",
+        "price": "$1,394",
+        "percentage_of_highest_price": 67.70277,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-01",
+        "return_date": "2024-05-14",
+        "price": "$1,294",
+        "percentage_of_highest_price": 62.84604,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-05-02",
+        "return_date": "2024-05-15",
+        "price": "$1,401",
+        "percentage_of_highest_price": 68.04274,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-03",
+        "return_date": "2024-05-16",
+        "price": "$1,431",
+        "percentage_of_highest_price": 69.499755,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-05-04",
+        "return_date": "2024-05-17",
+        "price": "$1,321",
+        "percentage_of_highest_price": 64.15736,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-05",
+        "return_date": "2024-05-18",
+        "price": "$1,350",
+        "percentage_of_highest_price": 65.56580699999999,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-06",
+        "return_date": "2024-05-19",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-05-07",
+        "return_date": "2024-05-20",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-08",
+        "return_date": "2024-05-21",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-05-09",
+        "return_date": "2024-05-22",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-10",
+        "return_date": "2024-05-23",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-05-11",
+        "return_date": "2024-05-24",
+        "price": "$1,465",
+        "percentage_of_highest_price": 71.15104,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-12",
+        "return_date": "2024-05-25",
+        "price": "$1,305",
+        "percentage_of_highest_price": 63.380283000000006,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-13",
+        "return_date": "2024-05-26",
+        "price": "$1,214",
+        "percentage_of_highest_price": 58.96066,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-05-14",
+        "return_date": "2024-05-27",
+        "price": "$1,250",
+        "percentage_of_highest_price": 60.709083,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-15",
+        "return_date": "2024-05-28",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-05-16",
+        "return_date": "2024-05-29",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-17",
+        "return_date": "2024-05-30",
+        "price": "$1,184",
+        "percentage_of_highest_price": 57.50364,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-05-18",
+        "return_date": "2024-05-31",
+        "price": "$1,213",
+        "percentage_of_highest_price": 58.91208999999999,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-19",
+        "return_date": "2024-06-01",
+        "price": "$1,184",
+        "percentage_of_highest_price": 57.50364,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-20",
+        "return_date": "2024-06-02",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-05-21",
+        "return_date": "2024-06-03",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-22",
+        "return_date": "2024-06-04",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-05-23",
+        "return_date": "2024-06-05",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-24",
+        "return_date": "2024-06-06",
+        "price": "$1,347",
+        "percentage_of_highest_price": 65.42011,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-05-25",
+        "return_date": "2024-06-07",
+        "price": "$1,413",
+        "percentage_of_highest_price": 68.625546,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-26",
+        "return_date": "2024-06-08",
+        "price": "$1,394",
+        "percentage_of_highest_price": 67.70277,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-05-27",
+        "return_date": "2024-06-09",
+        "price": "$1,394",
+        "percentage_of_highest_price": 67.70277,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-05-28",
+        "return_date": "2024-06-10",
+        "price": "$1,386",
+        "percentage_of_highest_price": 67.31423,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-29",
+        "return_date": "2024-06-11",
+        "price": "$1,430",
+        "percentage_of_highest_price": 69.45119,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-05-30",
+        "return_date": "2024-06-12",
+        "price": "$1,394",
+        "percentage_of_highest_price": 67.70277,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-05-31",
+        "return_date": "2024-06-13",
+        "price": "$1,507",
+        "percentage_of_highest_price": 73.19086999999999,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-06-01",
+        "return_date": "2024-06-14",
+        "price": "$1,386",
+        "percentage_of_highest_price": 67.31423,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-02",
+        "return_date": "2024-06-15",
+        "price": "$1,488",
+        "percentage_of_highest_price": 72.26809,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-03",
+        "return_date": "2024-06-16",
+        "price": "$1,284",
+        "percentage_of_highest_price": 62.360369999999996,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-06-04",
+        "return_date": "2024-06-17",
+        "price": "$1,305",
+        "percentage_of_highest_price": 63.380283000000006,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-06-05",
+        "return_date": "2024-06-18",
+        "price": "$1,200",
+        "percentage_of_highest_price": 58.280719999999995,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-06-06",
+        "return_date": "2024-06-19",
+        "price": "$1,271",
+        "percentage_of_highest_price": 61.728996,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-06-07",
+        "return_date": "2024-06-20",
+        "price": "$1,313",
+        "percentage_of_highest_price": 63.768820000000005,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-06-08",
+        "return_date": "2024-06-21",
+        "price": "$1,300",
+        "percentage_of_highest_price": 63.137449999999994,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-09",
+        "return_date": "2024-06-22",
+        "price": "$1,185",
+        "percentage_of_highest_price": 57.55221,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-10",
+        "return_date": "2024-06-23",
+        "price": "$1,288",
+        "percentage_of_highest_price": 62.55463999999999,
+        "booking_class": "M"
+      },
+      {
+        "departure_date": "2024-06-11",
+        "return_date": "2024-06-24",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-06-12",
+        "return_date": "2024-06-25",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "W"
+      },
+      {
+        "departure_date": "2024-06-13",
+        "return_date": "2024-06-26",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "T"
+      },
+      {
+        "departure_date": "2024-06-14",
+        "return_date": "2024-06-27",
+        "price": "$1,439",
+        "percentage_of_highest_price": 69.888294,
+        "booking_class": "F"
+      },
+      {
+        "departure_date": "2024-06-15",
+        "return_date": "2024-06-28",
+        "price": "$1,300",
+        "percentage_of_highest_price": 63.137449999999994,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-16",
+        "return_date": "2024-06-29",
+        "price": "$1,185",
+        "percentage_of_highest_price": 57.55221,
+        "booking_class": "S"
+      },
+      {
+        "departure_date": "2024-06-17",
+        "return_date": "2024-06-30",
+        "price": "$1,156",
+        "percentage_of_highest_price": 56.14376,
+        "booking_class": "M"
+      }
+    ]
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "$499 Cheap flights from Tokyo (NRT) to Toronto (YYZ)",
+      "link": "https://www.expedia.com/lp/flights/nrt/yyz/tokyo-to-toronto",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/lp/flights/nrt/yyz/tokyo-to-toronto&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECDgQAQ",
+      "displayed_link": "https://www.expedia.com › ... › Flights to Toronto",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d5c73022b353fbae031a2f1f610c2a4deb.png",
+      "snippet": "Cheap Flights from Tokyo to Toronto (NRT-YYZ). Prices were available within the past 7 days and start at $499 for one-way flights and $943 for round trip, for ...",
+      "snippet_highlighted_words": [
+        "Flights from Tokyo to Toronto"
+      ],
+      "source": "Expedia.com"
+    },
+    {
+      "position": 2,
+      "title": "$497 Cheap Tokyo to Toronto flights (TYO to YTO)",
+      "link": "https://www.orbitz.com/lp/flights/179900/178314/tokyo-to-toronto",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.orbitz.com/lp/flights/179900/178314/tokyo-to-toronto&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECEAQAQ",
+      "displayed_link": "https://www.orbitz.com › ... › Ontario › Flights to Toronto",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d59bbee08088ca3b983ae60ace32d91115.png",
+      "snippet": "Cheap flights from Tokyo to Toronto (TYO - YTO): Compare last minute flight deals, direct flights and round-trip flights with Orbitz today!",
+      "snippet_highlighted_words": [
+        "flights from Tokyo to Toronto"
+      ],
+      "source": "Orbitz.com"
+    },
+    {
+      "position": 3,
+      "title": "Find cheap flights from Tokyo to Toronto from C ...",
+      "link": "https://www.ca.kayak.com/flight-routes/Tokyo-TYO/Toronto-YTO",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.ca.kayak.com/flight-routes/Tokyo-TYO/Toronto-YTO&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECCcQAQ",
+      "displayed_link": "https://www.ca.kayak.com › Flights › Canada › Ontario",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d57d972ea7f8740c5af178acfb54d4bf8d.jpeg",
+      "snippet": "Find flights to Toronto from C$ 640. Fly from Tokyo on WestJet, Delta and more. Search for Toronto flights on KAYAK now to find the best deal.",
+      "snippet_highlighted_words": [
+        "Toronto",
+        "Fly from Tokyo",
+        "Toronto"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "starting_from_ca": 640.37
+          },
+          "extensions": [
+            "Starting from CA$640.37"
+          ]
+        }
+      },
+      "source": "Kayak"
+    },
+    {
+      "position": 4,
+      "title": "Find Cheap Flights from Tokyo to Toronto",
+      "link": "https://www.google.com/travel/flights/flights-from-tokyo-to-toronto.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.google.com/travel/flights/flights-from-tokyo-to-toronto.html&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECCMQAQ",
+      "displayed_link": "https://www.google.com › Flights › From Tokyo",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d519020b1900836f59e882281424356c75.png",
+      "snippet": "Prices are for flights from Tokyo to Toronto for 1 adult in Economy. Flight times are based on nonstop flights or flights with the fewest stops available.",
+      "snippet_highlighted_words": [
+        "flights from Tokyo to Toronto"
+      ],
+      "source": "Google"
+    },
+    {
+      "position": 5,
+      "title": "Book flights from Tokyo (TYO) to Toronto (YYZ)",
+      "link": "https://www.aircanada.com/en-jp/flights-from-tokyo-to-toronto",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aircanada.com/en-jp/flights-from-tokyo-to-toronto&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECDkQAQ",
+      "displayed_link": "https://www.aircanada.com › ... › Flights to Canada",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d5a5e405cd696f40c9cfb4a8487746e014.png",
+      "snippet": "Looking for flights from Tokyo (TYO) to Toronto (YYZ)? Fly Air Canada, voted \"Best Airline in North America\" by Skytrax and Global Traveler Magazine.",
+      "snippet_highlighted_words": [
+        "flights from Tokyo",
+        "Toronto"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "price": 213890,
+            "currency": "Starting from ¥"
+          },
+          "extensions": [
+            "Starting from ¥213,890"
+          ]
+        }
+      },
+      "source": "Air Canada"
+    },
+    {
+      "position": 6,
+      "title": "Book flights from Tokyo (TYO) to Toronto (YYZ)",
+      "link": "https://www.aircanada.com/en-ca/flights-from-tokyo-to-toronto",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.aircanada.com/en-ca/flights-from-tokyo-to-toronto&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECDoQAQ",
+      "displayed_link": "https://www.aircanada.com › ... › Flights to Canada",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d5ea8014216fd1d9260b65d2d5e5cb6edc.png",
+      "snippet": "Looking for flights from Tokyo (TYO) to Toronto (YYZ)? Fly Air Canada, voted \"Best Airline in North America\" by Skytrax and Global Traveler Magazine.",
+      "snippet_highlighted_words": [
+        "flights from Tokyo",
+        "Toronto"
+      ],
+      "rich_snippet": {
+        "top": {
+          "detected_extensions": {
+            "starting_from_ca": 2060.0
+          },
+          "extensions": [
+            "Starting from CA$2,060.00"
+          ]
+        }
+      },
+      "source": "Air Canada"
+    },
+    {
+      "position": 7,
+      "title": "Cheap Flights from Tokyo (TYO) to Toronto (YTO)",
+      "link": "https://www.skyscanner.com/routes/tyoa/ytoa/tokyo-to-toronto.html",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.skyscanner.com/routes/tyoa/ytoa/tokyo-to-toronto.html&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECEUQAQ",
+      "displayed_link": "https://www.skyscanner.com › Japan › Tokyo",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d59eee57b7a978e69659b30aa0de2b2337.png",
+      "snippet": "Find the best deals on flights from Tokyo (TYO) to Toronto (YTO). Compare prices from hundreds of major travel agents and airlines, all in one search.",
+      "snippet_highlighted_words": [
+        "flights from Tokyo",
+        "Toronto"
+      ],
+      "source": "Sky Scanner"
+    },
+    {
+      "position": 8,
+      "title": "Cheap Flights From Tokyo to Toronto ...",
+      "link": "https://us.trip.com/flights/tokyo-to-toronto/airfares-tyo-yto/",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://us.trip.com/flights/tokyo-to-toronto/airfares-tyo-yto/&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECCQQAQ",
+      "displayed_link": "https://us.trip.com › ... › Flights to Toronto",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d5ac74fa6c907c8f14373c8637978f2c69.jpeg",
+      "snippet": "Book one-way or return flights from Tokyo to Toronto starting at $402. Fly with top airlines and search for flights deals on Trip.com now!",
+      "snippet_highlighted_words": [
+        "flights from Tokyo to Toronto"
+      ],
+      "source": "Trip.com Official Site?? | Travel Deals and Promotions"
+    },
+    {
+      "position": 9,
+      "title": "Cheap Flights from Tokyo (HND) to Toronto (YYZ)",
+      "link": "https://www.expedia.com/lp/flights/hnd/yyz/tokyo-to-toronto",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.expedia.com/lp/flights/hnd/yyz/tokyo-to-toronto&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECCUQAQ",
+      "displayed_link": "https://www.expedia.com › ... › Flights to Toronto",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d56d8035b08b98c3f1a921a489ecd360d9.png",
+      "snippet": "Cheap Flights from Tokyo to Toronto (HND-YYZ). Prices were available within the past 7 days and start at $610 for one-way flights and $1,006 for round trip, for ...",
+      "snippet_highlighted_words": [
+        "Flights from Tokyo to Toronto"
+      ],
+      "source": "Expedia.com"
+    },
+    {
+      "position": 10,
+      "title": "Japan Airlines NRT to YYZ Flight Deals",
+      "link": "https://www.travelocity.com/lp/flight-routes/japan-airlines-from-narita-intl-to-pearson-intl/jl/nrt/yyz",
+      "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.travelocity.com/lp/flight-routes/japan-airlines-from-narita-intl-to-pearson-intl/jl/nrt/yyz&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQFnoECCoQAQ",
+      "displayed_link": "https://www.travelocity.com › ... › Japan Airlines Flights",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN9RFo8jYeNSYeCFVcEFu5dPzFeB6IrI4a0Mxd8hCFmptSoaro7Kzu&usqp=CAE&s",
+      "favicon": "https://serpapi.com/searches/65f4f5a5116a55be64bd8ccb/images/68d8aacee2981f3eeb29a18ceae928d5597a38069c26b2c25f36bbf764d126c0.png",
+      "snippet": "Japan Airlines flight deals and tickets from Tokyo to Toronto (NRT to YYZ) from $1940.",
+      "snippet_highlighted_words": [
+        "flight",
+        "Tokyo to Toronto"
+      ],
+      "source": "Travelocity.com"
+    }
+  ],
+  "related_searches": [
+    {
+      "block_position": 1,
+      "query": "International flights from tokyo to toronto",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=International+flights+from+tokyo+to+toronto&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgpEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=International+flights+from+tokyo+to+toronto"
+    },
+    {
+      "block_position": 1,
+      "query": "tokyo to toronto flight status",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Tokyo+to+Toronto+flight+status&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgmEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Tokyo+to+Toronto+flight+status"
+    },
+    {
+      "block_position": 1,
+      "query": "tokyo to toronto flight time",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Tokyo+to+Toronto+flight+time&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgiEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Tokyo+to+Toronto+flight+time"
+    },
+    {
+      "block_position": 1,
+      "query": "tokyo to toronto direct flight",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Tokyo+to+Toronto+direct+flight&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAghEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Tokyo+to+Toronto+direct+flight"
+    },
+    {
+      "block_position": 1,
+      "query": "Cheap flights from tokyo to toronto",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Cheap+flights+from+tokyo+to+toronto&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAggEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Cheap+flights+from+tokyo+to+toronto"
+    },
+    {
+      "block_position": 1,
+      "query": "tokyo to toronto air canada",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Tokyo+to+Toronto+air+canada&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgfEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Tokyo+to+Toronto+air+canada"
+    },
+    {
+      "block_position": 1,
+      "query": "japan to toronto flight status",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Japan+to+Toronto+flight+status&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgeEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Japan+to+Toronto+flight+status"
+    },
+    {
+      "block_position": 1,
+      "query": "flight from japan to toronto today",
+      "link": "https://www.google.com/search?sca_esv=2b7898c5615aa23f&q=Flight+from+Japan+to+Toronto+today&sa=X&ved=2ahUKEwi-1s3M0PeEAxXvtokEHXphCIAQ1QJ6BAgdEAE",
+      "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Flight+from+Japan+to+Toronto+today"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&start=10&sourceid=chrome&ie=UTF-8",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&start=10&sourceid=chrome&ie=UTF-8",
+      "3": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&start=20&sourceid=chrome&ie=UTF-8",
+      "4": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&start=30&sourceid=chrome&ie=UTF-8",
+      "5": "https://www.google.com/search?q=flights+from+Tokyo+to+Toronto&oq=flights+from+Tokyo+to+Toronto&start=40&sourceid=chrome&ie=UTF-8"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=10",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=10",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=20",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=30",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=flights+from+Tokyo+to+Toronto&start=40"
+    }
+  }
+}
