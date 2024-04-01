@@ -23,7 +23,6 @@ import com.otu.FlightBookingApp.model.Flight;
 
 @Controller
 public class FlightBookingAppController {
-    String responseBody = "";
     String flightResults = "";
     //Gets usernames
     @GetMapping("/")
@@ -40,12 +39,9 @@ public class FlightBookingAppController {
         HttpClient httpClient = HttpClients.createDefault();
         String apiKey = "ecefaae728f585b8f05760bb13a7168b2fd5e9aeb00a15e09830989fb37b4148";
 
-        departureDate = "2024-04-20";
-        returnDate = "2024-04-25";
+        departureDate = "2024-04-30";
+        returnDate = "2024-05-30";
         
-        // Process the form data
-        System.out.println("Departing City: " + departingCity);
-        System.out.println("Arriving City: " + arrivingCity);
         // Construct the URL with departure date and arrival date parameters
         String url = "https://serpapi.com/search.json?engine=google_flights"
                     + "&departure_id=" + departingCity 
@@ -62,14 +58,26 @@ public class FlightBookingAppController {
             // Check if the request was successful
             if (response.getStatusLine().getStatusCode() == 200) {
                 ObjectMapper objectMapper = new ObjectMapper();
-                // responseBody = EntityUtils.toString(response.getEntity());
-                JsonNode responseBodyJson = objectMapper.readTree(response.getEntity().getContent());
+                JsonNode responseBodyJson = objectMapper.readTree(EntityUtils.toString(response.getEntity()));
                 JsonNode bestFlights = responseBodyJson.get("best_flights");
-                JsonNode flight1 = bestFlights.get(0).get("flights");
-                String flight = flight1.toString();
-      
-                System.out.println(flight);
+                String flights = bestFlights.get(0).get("flights").get(0).get("departure_airport").get("id").asText();
+                System.out.println("WOW " + flights);
+                for (JsonNode flightNode : bestFlights) {
+                    System.out.println("Flight Details:");
+                    System.out.println("Total Duration: " + flightNode.get("total_duration").asInt());
+                    System.out.println("Price: " + flightNode.get("price").asInt());
+                    System.out.println("Type: " + flightNode.get("type").asText());
+    
+                    // Extract flight details
+                    JsonNode flightsNode = flightNode.get("flights");
+                    for (JsonNode singleFlightNode : flightsNode) {
+                        System.out.println("Flight Number: " + singleFlightNode.get("flight_number").asText());
+                        System.out.println("Airline: " + singleFlightNode.get("airline").asText());
+                        System.out.println("Departure Airport: " + singleFlightNode.get("departure_airport").get("name").asText());
+                        System.out.println("Departure Time: " + singleFlightNode.get("departure_airport").get("time").asText());
+                    }
                 
+                }
                 // // Write the response to a file
                 // String filePath = "response.txt";
                 // try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath)))) {
