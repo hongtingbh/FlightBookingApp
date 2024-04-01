@@ -15,11 +15,17 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.otu.FlightBookingApp.model.User;
+import com.otu.FlightBookingApp.model.Flight;
+
 
 @Controller
 public class FlightBookingAppController {
     String responseBody = "";
+    String flightResults = "";
+    //Gets usernames
     @GetMapping("/")
     public String index(Model model) {
         
@@ -28,37 +34,48 @@ public class FlightBookingAppController {
         return "index";
     }
 
-    @PostMapping("/")
-    public void handleFormSubmission(@RequestParam String departingCity, @RequestParam String arrivingCity) {
+    @PostMapping("/submitForm")
+    public String handleFormSubmission(@RequestParam String departingCity, @RequestParam String departureDate, 
+    @RequestParam String arrivingCity, @RequestParam String returnDate, @RequestParam String flightType) {
         HttpClient httpClient = HttpClients.createDefault();
         String apiKey = "ecefaae728f585b8f05760bb13a7168b2fd5e9aeb00a15e09830989fb37b4148";
-        String departureDate = "2024-03-20";
-        String arrivalDate = "2024-03-25";
+
+        departureDate = "2024-04-20";
+        returnDate = "2024-04-25";
         
         // Process the form data
         System.out.println("Departing City: " + departingCity);
         System.out.println("Arriving City: " + arrivingCity);
         // Construct the URL with departure date and arrival date parameters
-        String url = "https://serpapi.com/search?q=flights+from+"
-                    + departingCity + "+to+" + arrivingCity
-                    + "&departure_date=" + departureDate
-                    + "&return_date=" + arrivalDate
+        String url = "https://serpapi.com/search.json?engine=google_flights"
+                    + "&departure_id=" + departingCity 
+                    + "&arrival_id=" + arrivingCity
+                    + "&type=" + flightType
+                    + "&outbound_date=" + departureDate
+                    + "&return_date=" + returnDate
                     + "&api_key=" + apiKey;
+        // System.out.println(url);
         try {
             HttpGet request = new HttpGet(url);
             HttpResponse response = httpClient.execute(request);
 
             // Check if the request was successful
             if (response.getStatusLine().getStatusCode() == 200) {
-                responseBody = EntityUtils.toString(response.getEntity());
-                // System.out.println(responseBody); // Print the response body (JSON)
-
-                // Write the response to a file
-                String filePath = "response.txt";
-                try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath)))) {
-                    writer.write(responseBody);
+                ObjectMapper objectMapper = new ObjectMapper();
+                // responseBody = EntityUtils.toString(response.getEntity());
+                JsonNode responseBodyJson = objectMapper.readTree(response.getEntity().getContent());
+                JsonNode bestFlights = responseBodyJson.get("best_flights");
+                JsonNode flight1 = bestFlights.get(0).get("flights");
+                String flight = flight1.toString();
+      
+                System.out.println(flight);
+                
+                // // Write the response to a file
+                // String filePath = "response.txt";
+                // try (BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath)))) {
+                //     writer.write(responseBody);
                     
-                }
+                // }
             } else {
                 System.err.println("Request failed with status code: " + response.getStatusLine().getStatusCode());
             }
@@ -66,24 +83,16 @@ public class FlightBookingAppController {
             e.printStackTrace();
         }
         // Redirect to a success page or return a view name
-        
+        return "redirect:/showData";
     }
 
-    @GetMapping("/submitForm")
-    public String handleAnotherRequest(Model model) {
-        // Call the showData method from the other controller
-        String viewName = showData(model);
-
-        // Use the returned view name or handle the result as needed
-        return viewName;
-    }
-
+    @GetMapping("/showData")
     // This method can be called from other controller methods
     public String showData(Model model) {
         // Add data to the model
-        model.addAttribute("message", "Hello, world!");
-        model.addAttribute("number", 42);
-
+        
+        model.addAttribute("Response", flightResults);
+        
         // Return the view name
         return "showDataView"; // This corresponds to a view named "showDataView.html"
     }

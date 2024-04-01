@@ -18,12 +18,13 @@
             padding: 10px; /* Add padding */
         }
     </style>
-    <select id="Flight Type">
-        <option value="Return trip">Return trip</option>
-        <option value="Return trip">One way</option>
-        <option value="Return trip">Multi city</option>
-    </select>
-    <form id="/submitForm" method="post">
+    
+    <form action="/submitForm" method="post">
+        <select id="flightType" name="flightType">
+            <option value="1">Return trip</option>
+            <option value="2">One way</option>
+        </select>
+        <br>
         <label for="departingCity">From</label>
         <br>
         <input type="text" id="departingCity" name="departingCity" placeholder="Departing City">
@@ -31,7 +32,28 @@
         <label for="arrivingCity">To</label>
         <br>
         <input type="text" id="arrivingCity" name="arrivingCity" placeholder="Arriving City">
-        <button type="button" onclick="myFunction()">Submit</button>
+        <br>
+        <label for="departureDate">Departure Date:</label>
+        <input type="date" id="departureDate" name="departureDate">
+        <br>
+        <label for="returnDate">Return date:</label>
+        <input type="date" id="returnDate" name="returnDate">
+        <button type="submit">Submit</button>
+
+        <script>
+            // Get today's date
+            var today = new Date();
+
+            // Format the date as yyyy-mm-dd
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
+            var yyyy = today.getFullYear();
+            var formattedDate = yyyy + '-' + mm + '-' + dd;
+
+            // Set the minimum date attribute of the input field
+            document.getElementById('departureDate').min = formattedDate;
+            document.getElementById('departureDate').min = formattedDate;
+        </script>
 
     </form>
     
