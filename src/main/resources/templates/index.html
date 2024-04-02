@@ -19,8 +19,8 @@
         }
     </style>
     
-    <form action="/submitForm" method="post">
-        <select id="flightType" name="flightType">
+    <form id="travelForm" action="/submitForm" method="post">
+        <select id="flightType" name="flightType" onchange="toggleReturnDate()">
             <option value="1">Return trip</option>
             <option value="2">One way</option>
         </select>
@@ -45,26 +45,98 @@
         <input type="text" id="arrivingCity" name="arrivingCity" placeholder="Arriving City">
         <br>
         <label for="departureDate">Departure Date:</label>
-        <input type="date" id="departureDate" name="departureDate">
+        <input type="date" id="departureDate" name="departureDate" required>
         <br>
         <label for="returnDate">Return date:</label>
         <input type="date" id="returnDate" name="returnDate">
         <button type="submit">Submit</button>
 
+        <!-- Get today's date for earliest departureDate -->
         <script>
-            // Get today's date
             var today = new Date();
 
             // Format the date as yyyy-mm-dd
             var dd = String(today.getDate()).padStart(2, '0');
             var mm = String(today.getMonth() + 1).padStart(2, '0'); // January is 0!
             var yyyy = today.getFullYear();
-            var formattedDate = yyyy + '-' + mm + '-' + dd;
+            var departureMin = yyyy + '-' + mm + '-' + dd;
 
             // Set the minimum date attribute of the input field
-            document.getElementById('departureDate').min = formattedDate;
-            document.getElementById('departureDate').min = formattedDate;
+            document.getElementById('departureDate').min = departureMin;
         </script>
+        <!-- Handling earliest returnDate based on departureDate -->
+        <script>
+            // Get reference to departure date input element
+            const departureDateInput = document.getElementById('departureDate');
+            // Get reference to return date input element
+            const returnDateInput = document.getElementById('returnDate');
+        
+            // Add event listener to departure date input element
+            departureDateInput.addEventListener('change', function() {
+                // Get the selected departure date value
+                const departureDateValue = departureDateInput.value;
+                // Set the minimum return date to the selected departure date + 1 day
+                const minReturnDate = new Date(departureDateValue);
+                minReturnDate.setDate(minReturnDate.getDate() + 1);
+                // Format the minimum return date as YYYY-MM-DD
+                const minReturnDateString = minReturnDate.toISOString().split('T')[0];
+                // Set the minimum return date for the return date input element
+                returnDateInput.min = minReturnDateString;
+                // Reset the return date value if it's before the new minimum return date
+                if (returnDateInput.value < minReturnDateString) {
+                    returnDateInput.value = minReturnDateString;
+                }
+            });
+        </script>
+        <!-- Grey out returnDate input if trip is One Way -->
+        <script>
+            function toggleReturnDate() {
+                var flightType = document.getElementById('flightType').value;
+                var returnDateInput = document.getElementById('returnDate');
+
+                if (flightType === '2') {
+                    returnDateInput.required = false;
+                    returnDateInput.disabled = true;
+                    returnDateInput.value = ''; // Clear the value
+                } else if (flightType === '1') {
+                    returnDateInput.disabled = false;
+                    returnDateInput.required = true;
+                }
+            }
+
+            // Call toggleReturnDate initially to set initial state based on the default value of flightType
+            toggleReturnDate();
+        </script>
+        <!-- JavaScript to handle form submission -->
+        <!-- <script>
+            const form = document.getElementById('travelForm');
+        
+            form.addEventListener('submit', async function(event) {
+                event.preventDefault(); // Prevent default form submission behavior
+                
+                const formData = new FormData(form); // Get form data
+                try {
+                    const response = await fetch('/submitForm', {
+                        method: 'POST',
+                        body: formData
+                    });
+        
+                    if (response.status >= 200 && response.status < 300) {
+                        // Success: Do something
+                        console.log('Form submitted successfully!');
+                        alert(response.status);
+                        // Optionally, redirect to another page
+                        // window.location.href = '/successPage';
+                    } else {
+                        const errorMessage = await response.text(); // Get error message from response body
+                        alert('Form submission failed. Error: ' + errorMessage);
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    // Handle network errors
+                }
+            });
+        </script> -->
 
     </form>
     

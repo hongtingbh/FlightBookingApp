@@ -64,22 +64,24 @@ public class FlightBookingAppController {
 
     @PostMapping("/submitForm")
     public String handleFormSubmission(@RequestParam String departingCity, @RequestParam String departureDate, 
-    @RequestParam String arrivingCity, @RequestParam String returnDate, @RequestParam String flightType,
+    @RequestParam String arrivingCity, @RequestParam(required = false) String returnDate, @RequestParam String flightType,
     @RequestParam String numOfStops, @RequestParam Boolean useConvert) {
         HttpClient httpClient = HttpClients.createDefault();
         String apiKey = "ecefaae728f585b8f05760bb13a7168b2fd5e9aeb00a15e09830989fb37b4148";
         // departureDate = "2024-04-30";
         // returnDate = "2024-05-30";
         
-        // Construct the URL with departure date and arrival date parameters
+        // Construct the URL with departure date and return date parameters
         String url = "https://serpapi.com/search.json?engine=google_flights"
                     + "&departure_id=" + departingCity 
                     + "&arrival_id=" + arrivingCity
                     + "&type=" + flightType
                     + "&outbound_date=" + departureDate
-                    + "&return_date=" + returnDate
                     + "&stops=" + numOfStops
                     + "&api_key=" + apiKey;
+        if (returnDate != null) {
+            url = url + "&return_date=" + returnDate;
+        }
         System.out.println(url);
         try {
             HttpGet request = new HttpGet(url);
@@ -90,7 +92,7 @@ public class FlightBookingAppController {
                 ObjectMapper objectMapper = new ObjectMapper();
                 JsonNode responseBodyJson = objectMapper.readTree(EntityUtils.toString(response.getEntity()));
                 JsonNode bestFlights = responseBodyJson.get("best_flights");
-                // String flights = bestFlights.get(0).get("flights").get(0).get("departure_airport").get("id").asText();
+                
                 
                 int i = 0;
                 for (JsonNode flightNode : bestFlights) {
