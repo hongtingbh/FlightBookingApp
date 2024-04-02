@@ -51,6 +51,17 @@
         <input type="date" id="returnDate" name="returnDate">
         <button type="submit">Submit</button>
 
+        <script>
+            document.getElementById('travelForm').addEventListener('submit', function(event) {
+                var departingCityinput = document.getElementById('departingCity').value;
+                var arrivingCityinput = document.getElementById('arrivingCity').value;
+                
+                if (departingCityinput === arrivingCityinput) {
+                    alert("Input fields cannot be the same.");
+                    event.preventDefault(); // Prevent form submission
+                }
+            });
+        </script>
         <!-- Get today's date for earliest departureDate -->
         <script>
             var today = new Date();
