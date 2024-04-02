@@ -1,73 +1,44 @@
 package com.otu.FlightBookingApp.model;
-import java.time.LocalDateTime;
 import java.util.List;
 
 public class Flight {
-    private String flightNumber;
-    private List<String> airports; // List of airports in the itinerary
-    private List<Integer> layoverDurations; // List of layover durations in minutes
-    private List<Integer> flightDurations; // List of flight durations in minutes
-    private List<LocalDateTime> departureTimes; // List of departure times for each leg
-    private List<LocalDateTime> arrivalTimes; // List of arrival times for each leg
+    private List<Leg> legs;
+    private String totalDuration;
+    private int price;
+    private String type;
 
-    // Constructor, getters, and setters
-    public Flight(String flightNumber, List<String> airports, List<Integer> layoverDurations,
-                  List<Integer> flightDurations, List<LocalDateTime> departureTimes,
-                  List<LocalDateTime> arrivalTimes) {
-        this.flightNumber = flightNumber;
-        this.airports = airports;
-        this.layoverDurations = layoverDurations;
-        this.flightDurations = flightDurations;
-        this.departureTimes = departureTimes;
-        this.arrivalTimes = arrivalTimes;
+    // Setters
+    public void setLegs(List<Leg> legs) {
+        this.legs = legs;
     }
 
-    // Getters and setters
-    public String getFlightNumber() {
-        return flightNumber;
+    public void setTotalDuration(String totalDuration) {
+        this.totalDuration = totalDuration;
     }
 
-    public void setFlightNumber(String flightNumber) {
-        this.flightNumber = flightNumber;
+    public void setPrice(int price) {
+        this.price = price;
     }
 
-    public List<String> getAirports() {
-        return airports;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public void setAirports(List<String> airports) {
-        this.airports = airports;
+    // Getters
+    public List<Leg> getLegs() {
+        return legs;
     }
 
-    public List<Integer> getLayoverDurations() {
-        return layoverDurations;
+    public String getTotalDuration() {
+        return totalDuration;
     }
 
-    public void setLayoverDurations(List<Integer> layoverDurations) {
-        this.layoverDurations = layoverDurations;
+    public int getPrice() {
+        return price;
     }
 
-    public List<Integer> getFlightDurations() {
-        return flightDurations;
+    public String getType() {
+        return type;
     }
 
-    public void setFlightDurations(List<Integer> flightDurations) {
-        this.flightDurations = flightDurations;
-    }
-
-    public List<LocalDateTime> getDepartureTimes() {
-        return departureTimes;
-    }
-
-    public void setDepartureTimes(List<LocalDateTime> departureTimes) {
-        this.departureTimes = departureTimes;
-    }
-
-    public List<LocalDateTime> getArrivalTimes() {
-        return arrivalTimes;
-    }
-
-    public void setArrivalTimes(List<LocalDateTime> arrivalTimes) {
-        this.arrivalTimes = arrivalTimes;
-    }
 }

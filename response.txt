@@ -1,1776 +1,1431 @@
 {
-  "search_metadata": {
-    "id": "660a1696d3aba24ed362e086",
-    "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/b007e090cdcf7cbb/660a1696d3aba24ed362e086.json",
-    "created_at": "2024-04-01 02:06:14 UTC",
-    "processed_at": "2024-04-01 02:06:14 UTC",
-    "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&q=Flights+to+HND+from+YYZ+on+2024-04-03+through+2024-04-06",
-    "raw_html_file": "https://serpapi.com/searches/b007e090cdcf7cbb/660a1696d3aba24ed362e086.html",
-    "prettify_html_file": "https://serpapi.com/searches/b007e090cdcf7cbb/660a1696d3aba24ed362e086.prettify",
-    "total_time_taken": 0.95
-  },
-  "search_parameters": {
-    "engine": "google_flights",
-    "hl": "en",
-    "gl": "us",
-    "type": "1",
-    "departure_id": "YYZ",
-    "arrival_id": "HND",
-    "outbound_date": "2024-04-03",
-    "return_date": "2024-04-06"
-  },
-  "best_flights": [
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 07:30"
-          },
-          "arrival_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 09:14"
-          },
-          "duration": 104,
-          "airplane": "Embraer 175",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3435",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 96 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 10:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 13:35"
-          },
-          "duration": 860,
-          "airplane": "Boeing 777",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 131",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 995 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 61,
-          "name": "Newark Liberty International Airport",
-          "id": "EWR"
-        }
-      ],
-      "total_duration": 1025,
-      "carbon_emissions": {
-        "this_flight": 1092000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 22
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNME16VjhWVUV4TXpFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkVXUiIsbnVsbCwiVUEiLCIzNDM1Il0sWyJFV1IiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 10:00"
-          },
-          "arrival_airport": {
-            "name": "Dulles International Airport",
-            "id": "IAD",
-            "time": "2024-04-03 11:37"
-          },
-          "duration": 97,
-          "airplane": "Embraer 175",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3416",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 96 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Dulles International Airport",
-            "id": "IAD",
-            "time": "2024-04-03 12:25"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:25"
-          },
-          "duration": 840,
-          "airplane": "Boeing 777",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 803",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 998 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 48,
-          "name": "Dulles International Airport",
-          "id": "IAD"
-        }
-      ],
-      "total_duration": 985,
-      "carbon_emissions": {
-        "this_flight": 1095000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 22
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNME1UWjhWVUU0TURNYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIklBRCIsbnVsbCwiVUEiLCIzNDE2Il0sWyJJQUQiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJVQSIsIjgwMyJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 11:00"
-          },
-          "arrival_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 12:04"
-          },
-          "duration": 124,
-          "airplane": "Embraer 175",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 5454",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 114 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 12:50"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:55"
-          },
-          "duration": 785,
-          "airplane": "Boeing 787-10",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 881",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 642 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 46,
-          "name": "Chicago O'Hare International Airport",
-          "id": "ORD"
-        }
-      ],
-      "total_duration": 955,
-      "carbon_emissions": {
-        "this_flight": 758000,
-        "typical_for_this_route": 895000,
-        "difference_percent": -15
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRVME5UUjhWVUU0T0RFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIk9SRCIsbnVsbCwiVUEiLCI1NDU0Il0sWyJPUkQiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJVQSIsIjg4MSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 14:35"
-          },
-          "arrival_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 15:29"
-          },
-          "duration": 114,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 505",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 92 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 17:45"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 21:05"
-          },
-          "duration": 800,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 111",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1221 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 136,
-          "name": "Chicago O'Hare International Airport",
-          "id": "ORD"
-        }
-      ],
-      "total_duration": 1050,
-      "carbon_emissions": {
-        "this_flight": 1314000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 47
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3RCUXpVd05YeE9TREV4TVJvTENMNk5DeEFDR2dOVlUwUTRISEMralFzPSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIk9SRCIsbnVsbCwiQUMiLCI1MDUiXSxbIk9SRCIsIjIwMjQtMDQtMDMiLCJITkQiLG51bGwsIk5IIiwiMTExIl1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 16:00"
-          },
-          "arrival_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 17:04"
-          },
-          "duration": 124,
-          "airplane": "Embraer 175",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3636",
-          "ticket_also_sold_by": [
-            "ANA"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 114 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Chicago O'Hare International Airport",
-            "id": "ORD",
-            "time": "2024-04-03 17:45"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 21:05"
-          },
-          "duration": 800,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 111",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1221 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 41,
-          "name": "Chicago O'Hare International Airport",
-          "id": "ORD"
-        }
-      ],
-      "total_duration": 965,
-      "carbon_emissions": {
-        "this_flight": 1336000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 49
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNMk16WjhUa2d4TVRFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIk9SRCIsbnVsbCwiVUEiLCIzNjM2Il0sWyJPUkQiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJOSCIsIjExMSJdXV0="
-    }
-  ],
-  "other_flights": [
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 20:00"
-          },
-          "arrival_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 21:50"
-          },
-          "duration": 110,
-          "airplane": "Embraer 170",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3711",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 106 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-04 10:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 13:35"
-          },
-          "duration": 860,
-          "airplane": "Boeing 777",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 131",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 995 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 745,
-          "name": "Newark Liberty International Airport",
-          "id": "EWR",
-          "overnight": true
-        }
-      ],
-      "total_duration": 1715,
-      "carbon_emissions": {
-        "this_flight": 1103000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 23
-      },
-      "price": 1798,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNM01URjhWVUV4TXpFYUN3aUYvQW9RQWhvRFZWTkVPQnh3aGZ3SyIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkVXUiIsbnVsbCwiVUEiLCIzNzExIl0sWyJFV1IiLCIyMDI0LTA0LTA0IiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 20:30"
-          },
-          "arrival_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-03 22:18"
-          },
-          "duration": 108,
-          "airplane": "Embraer 175",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 8556",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 104 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-04 13:50"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 17:15"
-          },
-          "duration": 865,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 109",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1560 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 932,
-          "name": "John F. Kennedy International Airport",
-          "id": "JFK",
-          "overnight": true
-        }
-      ],
-      "total_duration": 1905,
-      "carbon_emissions": {
-        "this_flight": 1665000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 86
-      },
-      "price": 1798,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hCUXpnMU5UWjhUa2d4TURrYUN3aUYvQW9RQWhvRFZWTkVPQnh3aGZ3SyIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkpGSyIsbnVsbCwiQUMiLCI4NTU2Il0sWyJKRksiLCIyMDI0LTA0LTA0IiwiSE5EIixudWxsLCJOSCIsIjEwOSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 21:10"
-          },
-          "arrival_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 22:49"
-          },
-          "duration": 99,
-          "airplane": "Embraer 175",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 8884",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 132 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-04 10:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 13:35"
-          },
-          "duration": 860,
-          "airplane": "Boeing 777",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 131",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 995 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 686,
-          "name": "Newark Liberty International Airport",
-          "id": "EWR",
-          "overnight": true
-        }
-      ],
-      "total_duration": 1645,
-      "carbon_emissions": {
-        "this_flight": 1129000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 26
-      },
-      "price": 1798,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hCUXpnNE9EUjhWVUV4TXpFYUN3aUYvQW9RQWhvRFZWTkVPQnh3aGZ3SyIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkVXUiIsbnVsbCwiQUMiLCI4ODg0Il0sWyJFV1IiLCIyMDI0LTA0LTA0IiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 19:30"
-          },
-          "arrival_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-03 21:56"
-          },
-          "duration": 326,
-          "airplane": "Airbus A321",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 793",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 321 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        },
-        {
-          "departure_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-04 00:50"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 05:05"
-          },
-          "duration": 735,
-          "airplane": "Boeing 787",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 105",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 655 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 174,
-          "name": "Los Angeles International Airport",
-          "id": "LAX"
-        }
-      ],
-      "total_duration": 1235,
-      "carbon_emissions": {
-        "this_flight": 977000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 9
-      },
-      "price": 1814,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3RCUXpjNU0zeE9TREV3TlJvTENPK0lDeEFDR2dOVlUwUTRISER2aUFzPSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkxBWCIsbnVsbCwiQUMiLCI3OTMiXSxbIkxBWCIsIjIwMjQtMDQtMDQiLCJITkQiLG51bGwsIk5IIiwiMTA1Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 20:00"
-          },
-          "arrival_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 21:50"
-          },
-          "duration": 110,
-          "airplane": "Embraer 170",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3711",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 106 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-04 02:00"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 05:15"
-          },
-          "duration": 855,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 159",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1560 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 250,
-          "name": "John F. Kennedy International Airport",
-          "id": "EWR"
-        }
-      ],
-      "total_duration": 1215,
-      "carbon_emissions": {
-        "this_flight": 1667000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 86
-      },
-      "price": 1814,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNM01URjhUa2d4TlRrYUN3anZpQXNRQWhvRFZWTkVPQnh3NzRnTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkVXUiIsbnVsbCwiVUEiLCIzNzExIl0sWyJKRksiLCIyMDI0LTA0LTA0IiwiSE5EIixudWxsLCJOSCIsIjE1OSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 20:30"
-          },
-          "arrival_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-03 22:18"
-          },
-          "duration": 108,
-          "airplane": "Embraer 175",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 8556",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 104 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-04 02:00"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 05:15"
-          },
-          "duration": 855,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 159",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1560 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 222,
-          "name": "John F. Kennedy International Airport",
-          "id": "JFK"
-        }
-      ],
-      "total_duration": 1185,
-      "carbon_emissions": {
-        "this_flight": 1665000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 86
-      },
-      "price": 1814,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hCUXpnMU5UWjhUa2d4TlRrYUN3anZpQXNRQWhvRFZWTkVPQnh3NzRnTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkpGSyIsbnVsbCwiQUMiLCI4NTU2Il0sWyJKRksiLCIyMDI0LTA0LTA0IiwiSE5EIixudWxsLCJOSCIsIjE1OSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 06:15"
-          },
-          "arrival_airport": {
-            "name": "Dulles International Airport",
-            "id": "IAD",
-            "time": "2024-04-03 07:57"
-          },
-          "duration": 102,
-          "airplane": "Embraer 175",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 3554",
-          "ticket_also_sold_by": [
-            "ANA"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "Stream media to your device",
-            "Carbon emissions estimate: 89 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Dulles International Airport",
-            "id": "IAD",
-            "time": "2024-04-03 12:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:20"
-          },
-          "duration": 845,
-          "airplane": "Boeing 787",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 101",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 914 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 258,
-          "name": "Dulles International Airport",
-          "id": "IAD"
-        }
-      ],
-      "total_duration": 1205,
-      "carbon_emissions": {
-        "this_flight": 1003000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 12
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hWUVRNMU5UUjhUa2d4TURFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIklBRCIsbnVsbCwiVUEiLCIzNTU0Il0sWyJJQUQiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJOSCIsIjEwMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 06:40"
-          },
-          "arrival_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 08:15"
-          },
-          "duration": 95,
-          "airplane": "Embraer 175",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 8872",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 132 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Newark Liberty International Airport",
-            "id": "EWR",
-            "time": "2024-04-03 10:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 13:35"
-          },
-          "duration": 860,
-          "airplane": "Boeing 777",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 131",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 995 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 120,
-          "name": "Newark Liberty International Airport",
-          "id": "EWR"
-        }
-      ],
-      "total_duration": 1075,
-      "carbon_emissions": {
-        "this_flight": 1129000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 26
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hCUXpnNE56SjhWVUV4TXpFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkVXUiIsbnVsbCwiQUMiLCI4ODcyIl0sWyJFV1IiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 07:20"
-          },
-          "arrival_airport": {
-            "name": "Ronald Reagan Washington National Airport",
-            "id": "DCA",
-            "time": "2024-04-03 08:52"
-          },
-          "duration": 92,
-          "airplane": "Canadair RJ 900",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 8780",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "On-demand video",
-            "Carbon emissions estimate: 107 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Dulles International Airport",
-            "id": "IAD",
-            "time": "2024-04-03 12:15"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:20"
-          },
-          "duration": 845,
-          "airplane": "Boeing 787",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 101",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 914 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 203,
-          "name": "Dulles International Airport",
-          "id": "DCA"
-        }
-      ],
-      "total_duration": 1140,
-      "carbon_emissions": {
-        "this_flight": 1022000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 14
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3hCUXpnM09EQjhUa2d4TURFYUN3aStqUXNRQWhvRFZWTkVPQnh3dm8wTCIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkRDQSIsbnVsbCwiQUMiLCI4NzgwIl0sWyJJQUQiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJOSCIsIjEwMSJdXV0="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 08:00"
-          },
-          "arrival_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-03 10:15"
-          },
-          "duration": 315,
-          "airplane": "Boeing 787",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 785",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 293 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        },
-        {
-          "departure_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-03 11:30"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:15"
-          },
-          "duration": 705,
-          "airplane": "Boeing 787-10",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 39",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 561 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 75,
-          "name": "Los Angeles International Airport",
-          "id": "LAX"
-        }
-      ],
-      "total_duration": 1095,
-      "carbon_emissions": {
-        "this_flight": 855000,
-        "typical_for_this_route": 895000,
-        "difference_percent": -4
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3BCUXpjNE5YeFZRVE01R2dzSXZvMExFQUlhQTFWVFJEZ2NjTDZOQ3c9PSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkxBWCIsbnVsbCwiQUMiLCI3ODUiXSxbIkxBWCIsIjIwMjQtMDQtMDMiLCJITkQiLG51bGwsIlVBIiwiMzkiXV1d"
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 12:00"
-          },
-          "arrival_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-03 14:26"
-          },
-          "duration": 326,
-          "airplane": "Airbus A321",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 787",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 321 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        },
-        {
-          "departure_airport": {
-            "name": "Los Angeles International Airport",
-            "id": "LAX",
-            "time": "2024-04-03 16:50"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 21:00"
-          },
-          "duration": 730,
-          "airplane": "Boeing 787",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 125",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 655 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 144,
-          "name": "Los Angeles International Airport",
-          "id": "LAX"
-        }
-      ],
-      "total_duration": 1200,
-      "carbon_emissions": {
-        "this_flight": 977000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 9
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3RCUXpjNE4zeE9TREV5TlJvTENMNk5DeEFDR2dOVlUwUTRISEMralFzPSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkxBWCIsbnVsbCwiQUMiLCI3ODciXSxbIkxBWCIsIjIwMjQtMDQtMDMiLCJITkQiLG51bGwsIk5IIiwiMTI1Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 18:15"
-          },
-          "arrival_airport": {
-            "name": "San Francisco International Airport",
-            "id": "SFO",
-            "time": "2024-04-03 20:52"
-          },
-          "duration": 337,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 745",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 283 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        },
-        {
-          "departure_airport": {
-            "name": "San Francisco International Airport",
-            "id": "SFO",
-            "time": "2024-04-04 01:45"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-05 05:00"
-          },
-          "duration": 675,
-          "airplane": "Boeing 777",
-          "airline": "ANA",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/NH.png",
-          "travel_class": "Economy",
-          "flight_number": "NH 107",
-          "ticket_also_sold_by": [
-            "United"
-          ],
-          "legroom": "34 in",
-          "extensions": [
-            "Above average legroom (34 in)",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 898 kg"
-          ],
-          "overnight": true
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 293,
-          "name": "San Francisco International Airport",
-          "id": "SFO"
-        }
-      ],
-      "total_duration": 1305,
-      "carbon_emissions": {
-        "this_flight": 1182000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 32
-      },
-      "price": 1820,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3RCUXpjME5YeE9TREV3TnhvTENMNk5DeEFDR2dOVlUwUTRISEMralFzPSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIlNGTyIsbnVsbCwiQUMiLCI3NDUiXSxbIlNGTyIsIjIwMjQtMDQtMDQiLCJITkQiLG51bGwsIk5IIiwiMTA3Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 01:40"
-          },
-          "arrival_airport": {
-            "name": "Hong Kong International Airport",
-            "id": "HKG",
-            "time": "2024-04-04 05:00"
-          },
-          "duration": 920,
-          "airplane": "Airbus A350",
-          "airline": "Cathay Pacific",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-          "travel_class": "Economy",
-          "flight_number": "CX 829",
-          "legroom": "32 in",
-          "extensions": [
-            "Above average legroom (32 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 747 kg"
-          ],
-          "overnight": true
-        },
-        {
-          "departure_airport": {
-            "name": "Hong Kong International Airport",
-            "id": "HKG",
-            "time": "2024-04-04 08:45"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 13:55"
-          },
-          "duration": 250,
-          "airplane": "Boeing 777",
-          "airline": "Cathay Pacific",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-          "travel_class": "Economy",
-          "flight_number": "CX 548",
-          "legroom": "32 in",
-          "extensions": [
-            "Above average legroom (32 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 271 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 225,
-          "name": "Hong Kong International Airport",
-          "id": "HKG"
-        }
-      ],
-      "total_duration": 1395,
-      "carbon_emissions": {
-        "this_flight": 1019000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 14
-      },
-      "price": 2056,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/CX.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3REV0RneU9YeERXRFUwT0JvTENPUEZEQkFDR2dOVlUwUTRISERqeFF3PSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkhLRyIsbnVsbCwiQ1giLCI4MjkiXSxbIkhLRyIsIjIwMjQtMDQtMDQiLCJITkQiLG51bGwsIkNYIiwiNTQ4Il1dXQ=="
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 10:30"
-          },
-          "arrival_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-03 12:12"
-          },
-          "duration": 102,
-          "airplane": "Embraer 175",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 4552",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 97 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "John F. Kennedy International Airport",
-            "id": "JFK",
-            "time": "2024-04-03 13:20"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 16:35"
-          },
-          "duration": 855,
-          "airplane": "Airbus A350",
-          "airline": "JAL",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/JL.png",
-          "travel_class": "Economy",
-          "flight_number": "JL 5",
-          "ticket_also_sold_by": [
-            "American"
-          ],
-          "legroom": "33 in",
-          "extensions": [
-            "Above average legroom (33 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 1052 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 68,
-          "name": "John F. Kennedy International Airport",
-          "id": "JFK"
-        }
-      ],
-      "total_duration": 1025,
-      "carbon_emissions": {
-        "this_flight": 1151000,
-        "typical_for_this_route": 895000,
-        "difference_percent": 29
-      },
-      "price": 2444,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ3BCUVRRMU5USjhTa3cxR2dzSWd2VU9FQUlhQTFWVFJEZ2NjSUwxRGc9PSIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkpGSyIsbnVsbCwiQUEiLCI0NTUyIl0sWyJKRksiLCIyMDI0LTA0LTAzIiwiSE5EIixudWxsLCJKTCIsIjUiXV1d"
-    },
-    {
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Toronto Pearson International Airport",
-            "id": "YYZ",
-            "time": "2024-04-03 13:25"
-          },
-          "arrival_airport": {
-            "name": "Haneda Airport",
-            "id": "HND",
-            "time": "2024-04-04 15:40"
-          },
-          "duration": 795,
-          "airplane": "Boeing 787",
-          "airline": "Air Canada",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-          "travel_class": "Economy",
-          "flight_number": "AC 1",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 685 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "total_duration": 795,
-      "carbon_emissions": {
-        "this_flight": 685000,
-        "typical_for_this_route": 895000,
-        "difference_percent": -23
-      },
-      "price": 3545,
-      "type": "Round trip",
-      "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AC.png",
-      "departure_token": "WyJDalJJWTNKaWREaHRWUzFxZUZWQlNXdElhMEZDUnkwdExTMHRMUzB0TFMxd2FuRjBOa0ZCUVVGQlIxbExSbkJaVEZWaVUwRkJFZ05CUXpFYUN3akIwUlVRQWhvRFZWTkVPQnh3d2RFViIsW1siWVlaIiwiMjAyNC0wNC0wMyIsIkhORCIsbnVsbCwiQUMiLCIxIl1dXQ=="
-    }
-  ],
-  "price_insights": {
-    "lowest_price": 1798,
-    "price_level": "high",
-    "typical_price_range": [
-      1400,
-      1750
-    ],
-    "price_history": [
-      [
-        1706677200,
-        1778
-      ],
-      [
-        1706763600,
-        1768
-      ],
-      [
-        1706850000,
-        1775
-      ],
-      [
-        1706936400,
-        1763
-      ],
-      [
-        1707022800,
-        1763
-      ],
-      [
-        1707109200,
-        1684
-      ],
-      [
-        1707195600,
-        1677
-      ],
-      [
-        1707282000,
-        1769
-      ],
-      [
-        1707368400,
-        1773
-      ],
-      [
-        1707454800,
-        1773
-      ],
-      [
-        1707541200,
-        1769
-      ],
-      [
-        1707627600,
-        1769
-      ],
-      [
-        1707714000,
-        1773
-      ],
-      [
-        1707800400,
-        1773
-      ],
-      [
-        1707886800,
-        1759
-      ],
-      [
-        1707973200,
-        1821
-      ],
-      [
-        1708059600,
-        1832
-      ],
-      [
-        1708146000,
-        1724
-      ],
-      [
-        1708232400,
-        1724
-      ],
-      [
-        1708318800,
-        1726
-      ],
-      [
-        1708405200,
-        1723
-      ],
-      [
-        1708491600,
-        1758
-      ],
-      [
-        1708578000,
-        1760
-      ],
-      [
-        1708664400,
-        1759
-      ],
-      [
-        1708750800,
-        1866
-      ],
-      [
-        1708837200,
-        1847
-      ],
-      [
-        1708923600,
-        1844
-      ],
-      [
-        1709010000,
-        1845
-      ],
-      [
-        1709096400,
-        1841
-      ],
-      [
-        1709182800,
-        1835
-      ],
-      [
-        1709269200,
-        1834
-      ],
-      [
-        1709355600,
-        1833
-      ],
-      [
-        1709442000,
-        1833
-      ],
-      [
-        1709528400,
-        1837
-      ],
-      [
-        1709614800,
-        1859
-      ],
-      [
-        1709701200,
-        1792
-      ],
-      [
-        1709787600,
-        1719
-      ],
-      [
-        1709874000,
-        1728
-      ],
-      [
-        1709960400,
-        1605
-      ],
-      [
-        1710046800,
-        1531
-      ],
-      [
-        1710129600,
-        1462
-      ],
-      [
-        1710216000,
-        1463
-      ],
-      [
-        1710302400,
-        1535
-      ],
-      [
-        1710388800,
-        1537
-      ],
-      [
-        1710475200,
-        1715
-      ],
-      [
-        1710561600,
-        1605
-      ],
-      [
-        1710648000,
-        1605
-      ],
-      [
-        1710734400,
-        1530
-      ],
-      [
-        1710820800,
-        1603
-      ],
-      [
-        1710907200,
-        1600
-      ],
-      [
-        1710993600,
-        1808
-      ],
-      [
-        1711080000,
-        1796
-      ],
-      [
-        1711166400,
-        1787
-      ],
-      [
-        1711252800,
-        1787
-      ],
-      [
-        1711339200,
-        1790
-      ],
-      [
-        1711425600,
-        1792
-      ],
-      [
-        1711512000,
-        1791
-      ],
-      [
-        1711598400,
-        1793
-      ],
-      [
-        1711684800,
-        1798
-      ],
-      [
-        1711771200,
-        1802
-      ],
-      [
-        1711857600,
-        1798
-      ]
-    ]
-  }
+"search_metadata":
+{
+"id":
+"660b115deb31eb0ce767b1e9",
+"status":
+"Success",
+"json_endpoint":
+"https://serpapi.com/searches/465cb03f61c59d2d/660b115deb31eb0ce767b1e9.json",
+"created_at":
+"2024-04-01 19:56:13 UTC",
+"processed_at":
+"2024-04-01 19:56:13 UTC",
+"google_flights_url":
+"https://www.google.com/travel/flights?hl=en&gl=us&q=Flights+to+HND+from+YYZ+on+2024-04-30+through+2024-05-30",
+"raw_html_file":
+"https://serpapi.com/searches/465cb03f61c59d2d/660b115deb31eb0ce767b1e9.html",
+"prettify_html_file":
+"https://serpapi.com/searches/465cb03f61c59d2d/660b115deb31eb0ce767b1e9.prettify",
+"total_time_taken":
+2.71
+},
+"search_parameters":
+{
+"engine":
+"google_flights",
+"hl":
+"en",
+"gl":
+"us",
+"type":
+"1",
+"departure_id":
+"YYZ",
+"arrival_id":
+"HND",
+"outbound_date":
+"2024-04-30",
+"return_date":
+"2024-05-30",
+"stops":
+0
+},
+"best_flights":
+[
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 06:45"
+},
+"arrival_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-04-30 08:16"
+},
+"duration":
+151,
+"airplane":
+"Embraer 175",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 3648",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"Carbon emissions estimate: 142 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-04-30 08:52"
+},
+"arrival_airport":
+{
+"name":
+"Seattle–Tacoma International Airport",
+"id":
+"SEA",
+"time":
+"2024-04-30 10:45"
+},
+"duration":
+233,
+"airplane":
+"Boeing 737",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 348",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Free Wi-Fi",
+"In-seat power & USB outlets",
+"Live TV",
+"Carbon emissions estimate: 176 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Seattle–Tacoma International Airport",
+"id":
+"SEA",
+"time":
+"2024-04-30 11:25"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 14:15"
+},
+"duration":
+650,
+"airplane":
+"Airbus A330-900neo",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 167",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 723 kg"
+]
 }
+],
+"layovers":
+[
+{
+"duration":
+36,
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP"
+},
+{
+"duration":
+40,
+"name":
+"Seattle–Tacoma International Airport",
+"id":
+"SEA"
+}
+],
+"total_duration":
+1110,
+"carbon_emissions":
+{
+"this_flight":
+1042000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+16
+},
+"price":
+1603,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFaEpFVERNMk5EaDhSRXd6TkRoOFJFd3hOamNhQ3dpZDVBa1FBaG9EVlZORU9CeHduZVFKIixbWyJZWVoiLCIyMDI0LTA0LTMwIiwiTVNQIixudWxsLCJETCIsIjM2NDgiXSxbIk1TUCIsIjIwMjQtMDQtMzAiLCJTRUEiLG51bGwsIkRMIiwiMzQ4Il0sWyJTRUEiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJETCIsIjE2NyJdXV0="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 06:45"
+},
+"arrival_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-04-30 08:16"
+},
+"duration":
+151,
+"airplane":
+"Embraer 175",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 3648",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"Carbon emissions estimate: 142 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-04-30 11:05"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 14:20"
+},
+"duration":
+795,
+"airplane":
+"Airbus A330-900neo",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 121",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 587 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+169,
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP"
+}
+],
+"total_duration":
+1115,
+"carbon_emissions":
+{
+"this_flight":
+730000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+-18
+},
+"price":
+1603,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3hFVERNMk5EaDhSRXd4TWpFYUN3aWQ1QWtRQWhvRFZWTkVPQnh3bmVRSiIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIk1TUCIsbnVsbCwiREwiLCIzNjQ4Il0sWyJNU1AiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJETCIsIjEyMSJdXV0="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 11:00"
+},
+"arrival_airport":
+{
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD",
+"time":
+"2024-04-30 12:04"
+},
+"duration":
+124,
+"airplane":
+"Embraer 175",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 5454",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"Stream media to your device",
+"Carbon emissions estimate: 114 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD",
+"time":
+"2024-04-30 12:50"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 15:55"
+},
+"duration":
+785,
+"airplane":
+"Boeing 787-10",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 881",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 642 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+46,
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD"
+}
+],
+"total_duration":
+955,
+"carbon_emissions":
+{
+"this_flight":
+758000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+-15
+},
+"price":
+1993,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3hWUVRVME5UUjhWVUU0T0RFYUN3aWhsQXdRQWhvRFZWTkVPQnh3b1pRTSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIk9SRCIsbnVsbCwiVUEiLCI1NDU0Il0sWyJPUkQiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJVQSIsIjg4MSJdXV0="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 13:25"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 15:40"
+},
+"duration":
+795,
+"airplane":
+"Boeing 787",
+"airline":
+"Air Canada",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+"travel_class":
+"Premium Economy",
+"flight_number":
+"AC 1",
+"extensions":
+[
+"Extra reclining seat",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 1027 kg"
+],
+"often_delayed_by_over_30_min":
+true
+}
+],
+"total_duration":
+795,
+"carbon_emissions":
+{
+"this_flight":
+1028000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+15
+},
+"price":
+2736,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ05CUXpFYUN3aTYyUkFRQWhvRFZWTkVPQnh3dXRrUSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIkhORCIsbnVsbCwiQUMiLCIxIl1dXQ=="
+}
+],
+"other_flights":
+[
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 17:55"
+},
+"arrival_airport":
+{
+"name":
+"Munich International Airport",
+"id":
+"MUC",
+"time":
+"2024-05-01 07:45"
+},
+"duration":
+470,
+"airplane":
+"Boeing 787",
+"airline":
+"Air Canada",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+"travel_class":
+"Economy",
+"flight_number":
+"AC 836",
+"ticket_also_sold_by":
+[
+"Lufthansa"
+],
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 442 kg"
+],
+"overnight":
+true,
+"often_delayed_by_over_30_min":
+true
+},
+{
+"departure_airport":
+{
+"name":
+"Munich International Airport",
+"id":
+"MUC",
+"time":
+"2024-05-01 11:15"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-02 06:55"
+},
+"duration":
+760,
+"airplane":
+"Boeing 787",
+"airline":
+"ANA",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+"travel_class":
+"Economy",
+"flight_number":
+"NH 218",
+"ticket_also_sold_by":
+[
+"Lufthansa"
+],
+"legroom":
+"34 in",
+"extensions":
+[
+"Above average legroom (34 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 814 kg"
+],
+"overnight":
+true
+}
+],
+"layovers":
+[
+{
+"duration":
+210,
+"name":
+"Munich International Airport",
+"id":
+"MUC"
+}
+],
+"total_duration":
+1440,
+"carbon_emissions":
+{
+"this_flight":
+1257000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+40
+},
+"price":
+1748,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3RCUXpnek5ueE9TREl4T0JvTENLM1ZDaEFDR2dOVlUwUTRISEN0MVFvPSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIk1VQyIsbnVsbCwiQUMiLCI4MzYiXSxbIk1VQyIsIjIwMjQtMDUtMDEiLCJITkQiLG51bGwsIk5IIiwiMjE4Il1dXQ=="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 19:12"
+},
+"arrival_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-04-30 20:39"
+},
+"duration":
+147,
+"airplane":
+"Embraer 175",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 3690",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"Carbon emissions estimate: 142 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"time":
+"2024-05-01 06:20"
+},
+"arrival_airport":
+{
+"name":
+"Detroit Metropolitan Wayne County Airport",
+"id":
+"DTW",
+"time":
+"2024-05-01 09:00"
+},
+"duration":
+100,
+"airplane":
+"Boeing 757",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 1210",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"Live TV",
+"Carbon emissions estimate: 101 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Detroit Metropolitan Wayne County Airport",
+"id":
+"DTW",
+"time":
+"2024-05-01 13:45"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-02 16:10"
+},
+"duration":
+805,
+"airplane":
+"Airbus A350",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 275",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 632 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+581,
+"name":
+"Minneapolis–Saint Paul International Airport",
+"id":
+"MSP",
+"overnight":
+true
+},
+{
+"duration":
+285,
+"name":
+"Detroit Metropolitan Wayne County Airport",
+"id":
+"DTW"
+}
+],
+"total_duration":
+1918,
+"carbon_emissions":
+{
+"this_flight":
+877000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+-2
+},
+"price":
+1962,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFaE5FVERNMk9UQjhSRXd4TWpFd2ZFUk1NamMxR2dzSXovd0xFQUlhQTFWVFJEZ2NjTS84Q3c9PSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIk1TUCIsbnVsbCwiREwiLCIzNjkwIl0sWyJNU1AiLCIyMDI0LTA1LTAxIiwiRFRXIixudWxsLCJETCIsIjEyMTAiXSxbIkRUVyIsIjIwMjQtMDUtMDEiLCJITkQiLG51bGwsIkRMIiwiMjc1Il1dXQ=="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 07:30"
+},
+"arrival_airport":
+{
+"name":
+"Newark Liberty International Airport",
+"id":
+"EWR",
+"time":
+"2024-04-30 09:14"
+},
+"duration":
+104,
+"airplane":
+"Embraer 175",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 3435",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"Stream media to your device",
+"Carbon emissions estimate: 96 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Newark Liberty International Airport",
+"id":
+"EWR",
+"time":
+"2024-04-30 10:15"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 13:35"
+},
+"duration":
+860,
+"airplane":
+"Boeing 777",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 131",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 995 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+61,
+"name":
+"Newark Liberty International Airport",
+"id":
+"EWR"
+}
+],
+"total_duration":
+1025,
+"carbon_emissions":
+{
+"this_flight":
+1092000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+22
+},
+"price":
+1993,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3hWUVRNME16VjhWVUV4TXpFYUN3aWhsQXdRQWhvRFZWTkVPQnh3b1pRTSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIkVXUiIsbnVsbCwiVUEiLCIzNDM1Il0sWyJFV1IiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJVQSIsIjEzMSJdXV0="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 10:00"
+},
+"arrival_airport":
+{
+"name":
+"Dulles International Airport",
+"id":
+"IAD",
+"time":
+"2024-04-30 11:37"
+},
+"duration":
+97,
+"airplane":
+"Embraer 175",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 3416",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"Stream media to your device",
+"Carbon emissions estimate: 96 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Dulles International Airport",
+"id":
+"IAD",
+"time":
+"2024-04-30 12:25"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 15:25"
+},
+"duration":
+840,
+"airplane":
+"Boeing 777",
+"airline":
+"United",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"travel_class":
+"Economy",
+"flight_number":
+"UA 803",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 998 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+48,
+"name":
+"Dulles International Airport",
+"id":
+"IAD"
+}
+],
+"total_duration":
+985,
+"carbon_emissions":
+{
+"this_flight":
+1095000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+22
+},
+"price":
+1993,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3hWUVRNME1UWjhWVUU0TURNYUN3aWhsQXdRQWhvRFZWTkVPQnh3b1pRTSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIklBRCIsbnVsbCwiVUEiLCIzNDE2Il0sWyJJQUQiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJVQSIsIjgwMyJdXV0="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 14:35"
+},
+"arrival_airport":
+{
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD",
+"time":
+"2024-04-30 15:29"
+},
+"duration":
+114,
+"airplane":
+"Airbus A220-300 Passenger",
+"airline":
+"Air Canada",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/AC.png",
+"travel_class":
+"Economy",
+"flight_number":
+"AC 505",
+"ticket_also_sold_by":
+[
+"United"
+],
+"legroom":
+"30 in",
+"extensions":
+[
+"Average legroom (30 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 92 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD",
+"time":
+"2024-04-30 17:45"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 21:05"
+},
+"duration":
+800,
+"airplane":
+"Boeing 777",
+"airline":
+"ANA",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/NH.png",
+"travel_class":
+"Economy",
+"flight_number":
+"NH 111",
+"ticket_also_sold_by":
+[
+"United"
+],
+"legroom":
+"34 in",
+"extensions":
+[
+"Above average legroom (34 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 1221 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+136,
+"name":
+"Chicago O'Hare International Airport",
+"id":
+"ORD"
+}
+],
+"total_duration":
+1050,
+"carbon_emissions":
+{
+"this_flight":
+1314000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+47
+},
+"price":
+1993,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3RCUXpVd05YeE9TREV4TVJvTENLR1VEQkFDR2dOVlUwUTRISENobEF3PSIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIk9SRCIsbnVsbCwiQUMiLCI1MDUiXSxbIk9SRCIsIjIwMjQtMDQtMzAiLCJITkQiLG51bGwsIk5IIiwiMTExIl1dXQ=="
+},
+{
+"flights":
+[
+{
+"departure_airport":
+{
+"name":
+"Toronto Pearson International Airport",
+"id":
+"YYZ",
+"time":
+"2024-04-30 06:15"
+},
+"arrival_airport":
+{
+"name":
+"Hartsfield-Jackson Atlanta International Airport",
+"id":
+"ATL",
+"time":
+"2024-04-30 08:44"
+},
+"duration":
+149,
+"airplane":
+"Airbus A320",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 1575",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Free Wi-Fi",
+"In-seat power & USB outlets",
+"Live TV",
+"Carbon emissions estimate: 126 kg"
+]
+},
+{
+"departure_airport":
+{
+"name":
+"Hartsfield-Jackson Atlanta International Airport",
+"id":
+"ATL",
+"time":
+"2024-04-30 09:45"
+},
+"arrival_airport":
+{
+"name":
+"Haneda Airport",
+"id":
+"HND",
+"time":
+"2024-05-01 13:10"
+},
+"duration":
+865,
+"airplane":
+"Airbus A350",
+"airline":
+"Delta",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"travel_class":
+"Economy",
+"flight_number":
+"DL 295",
+"legroom":
+"31 in",
+"extensions":
+[
+"Average legroom (31 in)",
+"Wi-Fi for a fee",
+"In-seat power & USB outlets",
+"On-demand video",
+"Carbon emissions estimate: 1224 kg"
+]
+}
+],
+"layovers":
+[
+{
+"duration":
+61,
+"name":
+"Hartsfield-Jackson Atlanta International Airport",
+"id":
+"ATL"
+}
+],
+"total_duration":
+1075,
+"carbon_emissions":
+{
+"this_flight":
+1351000,
+"typical_for_this_route":
+895000,
+"difference_percent":
+51
+},
+"price":
+2185,
+"type":
+"Round trip",
+"airline_logo":
+"https://www.gstatic.com/flights/airline_logos/70px/DL.png",
+"departure_token":
+"WyJDalJJZEhWcU0wcGFjRkpRV0ZWQlFVbFpSMUZDUnkwdExTMHRMUzB0ZDJaaVozUXhNRUZCUVVGQlIxbE1SVlk0U3pnMFRUUkJFZ3hFVERFMU56VjhSRXd5T1RVYUN3ajBxZzBRQWhvRFZWTkVPQnh3OUtvTiIsW1siWVlaIiwiMjAyNC0wNC0zMCIsIkFUTCIsbnVsbCwiREwiLCIxNTc1Il0sWyJBVEwiLCIyMDI0LTA0LTMwIiwiSE5EIixudWxsLCJETCIsIjI5NSJdXV0="
+}
+],
+"price_insights":
+{
+"lowest_price":
+1603,
+"price_level":
+"typical",
+"typical_price_range":
+[
+1350,
+1750
+],
+"price_history":
+[
+[
+1706763600,
+1041
+],
+[
+1706850000,
+1554
+],
+[
+1706936400,
+1544
+],
+[
+1707022800,
+1544
+],
+[
+1707109200,
+1545
+],
+[
+1707195600,
+1537
+],
+[
+1707282000,
+1308
+],
+[
+1707368400,
+1310
+],
+[
+1707454800,
+1311
+],
+[
+1707541200,
+1478
+],
+[
+1707627600,
+1308
+],
+[
+1707714000,
+1481
+],
+[
+1707800400,
+1482
+],
+[
+1707886800,
+1489
+],
+[
+1707973200,
+1493
+],
+[
+1708059600,
+1501
+],
+[
+1708146000,
+1498
+],
+[
+1708232400,
+1498
+],
+[
+1708318800,
+1500
+],
+[
+1708405200,
+1534
+],
+[
+1708491600,
+1576
+],
+[
+1708578000,
+1579
+],
+[
+1708664400,
+1581
+],
+[
+1708750800,
+1580
+],
+[
+1708837200,
+1580
+],
+[
+1708923600,
+1577
+],
+[
+1709010000,
+1578
+],
+[
+1709096400,
+1575
+],
+[
+1709182800,

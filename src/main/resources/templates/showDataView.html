@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Flight Selection</title>
+    <title>Flight Details</title>
 </head>
 <body>
-    <p th:text="${Response}"></p>
+    <h1>Flight Details</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Total Duration</th>
+                <th>Price</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="flight : ${flightsList}">
+                <td th:text="${flight.totalDuration}"></td>
+                <td th:text="${flight.price}"></td>
+                <td th:text="${flight.type}"></td>
+                <td colspan="3">
+                    <b>Leg Details</b><br>
+                    <span th:each="leg : ${flight.legs}">
+                        Flight Number: <span th:text="${leg.flightNumber}"></span><br>
+                        Airline: <span th:text="${leg.airline}"></span><br>
+                        Airplane: <span th:text="${leg.airplane}"></span><br>
+                        Duration: <span th:text="${leg.duration} + ' minutes'"></span><br>
+                        Departure Airport: <span th:text="${leg.departureAirportName + ' (' + leg.departureAirportCode + ')'}"></span><br>
+                        Departure Time: <span th:text="${leg.departureTime}"></span><br>
+                        Arrival Airport: <span th:text="${leg.arrivalAirportName + ' (' + leg.arrivalAirportCode + ')'}"></span><br>
+                        Arrival Time: <span th:text="${leg.arrivalTime}"></span><br>
+                        <br>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
