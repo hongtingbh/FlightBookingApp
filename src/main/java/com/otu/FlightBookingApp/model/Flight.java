@@ -2,12 +2,17 @@ package com.otu.FlightBookingApp.model;
 import java.util.List;
 
 public class Flight {
+    private int id;
     private List<Leg> legs;
     private String totalDuration;
     private int price;
     private String type;
-
+    
     // Setters
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public void setLegs(List<Leg> legs) {
         this.legs = legs;
     }
@@ -25,6 +30,10 @@ public class Flight {
     }
 
     // Getters
+    public int getId() {
+        return id;
+    }
+
     public List<Leg> getLegs() {
         return legs;
     }

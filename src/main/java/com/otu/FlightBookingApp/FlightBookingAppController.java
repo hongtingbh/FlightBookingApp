@@ -17,6 +17,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,6 +34,7 @@ import java.util.Date;
 public class FlightBookingAppController {
     //Gets usernames
     List<Flight> flightsList = new ArrayList<>();
+    int selectedFlightID = 0;
     @GetMapping("/")
     public String index(Model model) {
         
@@ -65,9 +68,8 @@ public class FlightBookingAppController {
     @RequestParam String numOfStops, @RequestParam Boolean useConvert) {
         HttpClient httpClient = HttpClients.createDefault();
         String apiKey = "ecefaae728f585b8f05760bb13a7168b2fd5e9aeb00a15e09830989fb37b4148";
-        // Boolean useConvert = true;
-        departureDate = "2024-04-30";
-        returnDate = "2024-05-30";
+        // departureDate = "2024-04-30";
+        // returnDate = "2024-05-30";
         
         // Construct the URL with departure date and arrival date parameters
         String url = "https://serpapi.com/search.json?engine=google_flights"
@@ -90,12 +92,14 @@ public class FlightBookingAppController {
                 JsonNode bestFlights = responseBodyJson.get("best_flights");
                 // String flights = bestFlights.get(0).get("flights").get(0).get("departure_airport").get("id").asText();
                 
-                
+                int i = 0;
                 for (JsonNode flightNode : bestFlights) {
+                    i++;
                     Flight flight = new Flight();
                     flight.setTotalDuration(convertMinToHrAndMin(flightNode.get("total_duration").asInt()));
                     flight.setPrice(flightNode.get("price").asInt());
                     flight.setType(flightNode.get("type").asText());
+                    flight.setId(i);
                     List<Leg> legsList = new ArrayList<>();
                     JsonNode flightLeg = flightNode.get("flights"); // Extract flight details
                     for (JsonNode legNode : flightLeg) {
@@ -109,7 +113,7 @@ public class FlightBookingAppController {
                         leg.setDepartureTime(useConvert ? convertTo12HourTime(legNode.get("departure_airport").get("time").asText()) : legNode.get("departure_airport").get("time").asText());
                         leg.setArrivalAirportName(legNode.get("arrival_airport").get("name").asText());
                         leg.setArrivalAirportCode(legNode.get("arrival_airport").get("id").asText());
-                        leg.setArrivalTime(legNode.get("arrival_airport").get("time").asText());
+                        leg.setArrivalTime(useConvert ? convertTo12HourTime(legNode.get("arrival_airport").get("time").asText()) : legNode.get("arrival_airport").get("time").asText());
                         legsList.add(leg);
                     }
                     flight.setLegs(legsList);
@@ -139,5 +143,26 @@ public class FlightBookingAppController {
         model.addAttribute("flightsList", flightsList);
         // Return the view name
         return "showDataView"; // This corresponds to a view named "showDataView.html"
+    }
+
+    @PostMapping("/submitFlight")
+    public String confirmFlight(@RequestParam("selectedFlight") int flightId, Model model) {
+        selectedFlightID = flightId;
+        // Redirect to confirmation page
+        return "redirect:/confirmation";
+    }
+    @GetMapping("/confirmation")
+    // This method can be called from other controller methods
+    public String confirmation(Model model) {
+        for (Flight flight : flightsList) {
+            // Access the id attribute of each Flight object and perform comparison
+            int id = flight.getId(); // Assuming Flight class has a getId() method
+            // Perform comparison logic here
+            if (id == selectedFlightID) {
+                model.addAttribute("selectedFlight", flight);
+            }
+        }
+        // Return the view name
+        return "confirmationView";
     }
 }
